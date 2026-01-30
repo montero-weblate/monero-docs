@@ -7,7 +7,7 @@ title: "Wallet RPC documentation"
 **`monero-wallet-rpc`**
 [Overview](../interacting/monero-wallet-rpc-reference.md)
 
-## Introduction
+## Introductie
 
 This is a list of the monero-wallet-rpc calls, their inputs and outputs, and
 examples of each. The program monero-wallet-rpc replaced the rpc interface that
