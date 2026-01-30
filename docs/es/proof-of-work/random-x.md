@@ -15,6 +15,9 @@ contentOutdated: "no"
 {% endif %}
 
 <!-- Show the body -->
+
+{{ macros_info() }}
+
 # RandomX
 *06/05/19*
 _**Monero y Arweave a validar el algoritmo de Prueba-de-Trabajo.**_
