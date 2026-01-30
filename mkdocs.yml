@@ -200,13 +200,14 @@ plugins:
       htmlmin_opts:
         remove_comments: true
   - privacy
+#11 0.683 ERROR   -  Config value 'plugins': Plugin 'macros' option 'include_yaml': Expected type: <class 'list'> but received: <class 'dict'>
   - macros:
       include_dir: docs/macros/includes
       include_yaml:
-        dunno: docs/macros/monerod.yml
-        en: docs/macros/i18n/en.yml
-        fr: docs/macros/i18n/fr.yml
-        es: docs/macros/i18n/es.yml
+        - dunno: docs/macros/monerod.yml
+        - en: docs/macros/i18n/en.yml
+        - fr: docs/macros/i18n/fr.yml
+        - es: docs/macros/i18n/es.yml
   - i18n:
       docs_structure: folder
       languages:
