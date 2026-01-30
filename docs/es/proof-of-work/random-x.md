@@ -15,6 +15,14 @@ contentOutdated: "no"
 - {{ key }}: {{ value }}
 {% endfor %}
 
+
+en: {'notices': {'outdatedTranslation': 'This translation is outdated', 'outdatedContent': 'The content of this page is outdated'}
+
+{{ i18n_page_locale }} is a STRING .... need a function/macro 
+
+{{ i18n_macros_string('notices.outdatedTranslation') }}
+
+
 # RandomX
 *06/05/19*
 _**Monero y Arweave a validar el algoritmo de Prueba-de-Trabajo.**_
