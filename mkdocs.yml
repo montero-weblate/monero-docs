@@ -254,3 +254,10 @@ plugins:
         - locale: nb
           name: Norsk Bokmål
           build: false
+  - macros:
+      include_dir: docs/macros/includes
+      include_yaml:
+        - dunno: docs/macros/monerod.yml
+        - en: docs/macros/i18n/en.yml
+        - fr: docs/macros/i18n/fr.yml
+        - es: docs/macros/i18n/es.yml
