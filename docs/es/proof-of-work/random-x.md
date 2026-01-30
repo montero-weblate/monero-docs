@@ -11,6 +11,10 @@ contentOutdated: "no"
 
 {{ macros_info() }}
 
+{% for key, value in en.items() %}
+- {{ key }}: {{ value }}
+{% endfor %}
+
 # RandomX
 *06/05/19*
 _**Monero y Arweave a validar el algoritmo de Prueba-de-Trabajo.**_
