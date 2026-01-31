@@ -20,7 +20,7 @@ en: {'notices': {'outdatedTranslation': 'This translation is outdated', 'outdate
 
 {{ i18n_page_locale }} is a STRING .... need a function/macro 
 
-{{ i18n_str('notices.outdatedTranslation') }}
+{{ i18n_str('notices.outdatedContent') }}
 
 
 
