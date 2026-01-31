@@ -20,8 +20,9 @@ en: {'notices': {'outdatedTranslation': 'This translation is outdated', 'outdate
 
 {{ i18n_page_locale }} is a STRING .... need a function/macro 
 
-{{ [theme.language.locale].notices.outdatedTranslation }}
-{{ i18n_macros_string('notices.outdatedTranslation') }}
+{{ i18n_str('notices.outdatedTranslation') }}
+
+
 
 
 # RandomX
