@@ -2,12 +2,12 @@
 title: "RandomX"
 
 translationOutdated: "no"
-contentOutdated: "no"
+contentOutdated: "yes"
 ---
 
 <!-- If the English version is outdated, all versions (for all languages) will be outdated. No need to check the state of the translations. -->
 {% if contentOutdated == "yes" %}
-## **{{ en.notices.outdatedContent }}**
+## {{ i18n_str('notices.outdatedContent') }}
 
 <!-- If page is translated but the English version was updated, the translation is outdated -->
 {% elif translationOutdated == "yes" %}

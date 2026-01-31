@@ -2,23 +2,12 @@
 title: "RandomX"
 
 translationOutdated: "yes"
-contentOutdated: "no"
+contentOutdated: "yes"
 ---
 
 
 
 <!-- Show the body -->
-
-{{ macros_info() }}
-
-{% for key, value in en.items() %}
-- {{ key }}: {{ value }}
-{% endfor %}
-
-
-en: {'notices': {'outdatedTranslation': 'This translation is outdated', 'outdatedContent': 'The content of this page is outdated'}
-
-{{ i18n_page_locale }} is a STRING .... need a function/macro 
 
 {{ i18n_str('notices.outdatedContent') }}
 
