@@ -32,11 +32,11 @@ Outreach](https://github.com/monero-ecosystem/outreach-docs/blob/master/monero-o
 
 {{ i18n_str('proof_of_work.randomx.what_is_randomx_p3') }}
 
-| CPU                 | OS           | Threads | RAM        | CryptoNight-R (v8) | RandomX Fast Mode | RandomX Light Mode |
-| ------------------- | ------------ | ------- | ---------- | ------------------ | ----------------- | ------------------ |
-| AMD Ryzen 7 1700    | Ubuntu 16.04 | 8       | 16 GB DDR4 | 650 H/s            | 4100 H/s          | 620 H/s            |
-| Intel Core i7-8550U | Windows 10   | 4       | 16 GB DDR4 | 240 H/s            | 1700 H/s          | 350 H/s            |
-| Intel Core i3-3220  | Ubuntu 16.04 | 4       | 4 GB DDR3  | 75 H/s             | 510 H/s           | 150 H/s            |
+| CPU                 | OS                             | Threads | RAM        | CryptoNight-R (v8) | RandomX Fast Mode | RandomX Light Mode |
+| ------------------- | ------------------------------ | ------- | ---------- | ------------------ | ----------------- | ------------------ |
+| AMD Ryzen 7 1700    | Ubuntu 16.04 DUTCH TRANSLAtion | 8       | 16 GB DDR4 | 650 H/s            | 4100 H/s          | 620 H/s            |
+| Intel Core i7-8550U | Windows 10                     | 4       | 16 GB DDR4 | 240 H/s            | 1700 H/s          | 350 H/s            |
+| Intel Core i3-3220  | Ubuntu 16.04 DUTCH TRANSLAtion | 4       | 4 GB DDR3  | 75 H/s             | 510 H/s           | 150 H/s            |
 
 | GPU         | Clockspeed     | CryptoNight-R (v8) | RandomX          |
 | ----------- | -------------- | ------------------ | ---------------- |
