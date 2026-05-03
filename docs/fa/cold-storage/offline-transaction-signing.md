@@ -1,4 +1,4 @@
-# Offline Transaction Signing
+# امضای آفلاین تراکنش
 
 !!! warning This is **NOT** necessarily the recommended cold storage setup, due
 to high complexity, large room for errors and employing a general purpose
