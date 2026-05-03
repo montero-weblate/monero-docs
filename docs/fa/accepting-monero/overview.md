@@ -1,18 +1,17 @@
 ---
 title: Accepting Monero for Businesses
 ---
-# Accepting Monero for Businesses
+# دریافت مونرو برای کسب و کار ها
 
-This is for businesses that want to accept Monero in an automated way,
-including:
+این راهنما برای کسب و کار هایی می‌باشد که مایل به دریافت مونرو به صورت خودکار
+هستند می‌باشد، شامل:
 
-* merchants
-* service providers
-* exchanges
+* بازرگانان
+* ارائه دهندگان خدمات
+* صرافی ها
 
-We prepared a comparison of available venues to accept Monero, as of 2019-01-28:
+ما مقایسه‌ای از بستر های موجود برای پذیرش مونرو تا تاریخ ۲۰۱۹-۰۱-۲۸، آماده
+کرده‌ایم:
 
 
-[<img src="/images/sheets-icon.png" width="20px" height="20px" style="margin-bottom: -4px;" />
-Accepting Monero as a Business - Comparison
-Matrix](../../r/accepting-monero-comparison-matrix.md)
+[{۱} پذیرش مونرو به عنوان یک کسب و کار - ماتریس مقایسه]{۲}
