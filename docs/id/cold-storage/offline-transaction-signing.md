@@ -1,8 +1,9 @@
-# Offline Transaction Signing
+# Penandatanganan Transaksi Offline
 
-!!! warning This is **NOT** necessarily the recommended cold storage setup, due
-to high complexity, large room for errors and employing a general purpose
-computer for transaction signing (even if offline).
+!!! Peringatan! Ini **BUKAN** pengaturan penyimpanan dingin yang
+direkomendasikan, karena kompleksitas yang tinggi, potensi kesalahan yang besar,
+dan penggunaan komputer serbaguna untuk penandatanganan transaksi (meskipun
+offline).
 
     Published for educational purposes only to understand "what would it take to sign offline".
 
@@ -10,10 +11,10 @@ computer for transaction signing (even if offline).
 
     Opinions may vary.
 
-!!! note This is a guest tutorial contributed by
+!!! Catatan: Ini adalah tutorial tamu yang disumbangkan oleh
 [crocket](https://github.com/crocket).
 
-Offline transaction signing involves:
+Penandatanganan transaksi offline meliputi:
 
 * Creating an unsigned transaction on an online, view-only wallet
 * Moving the unsigned transaction to an offline machine
