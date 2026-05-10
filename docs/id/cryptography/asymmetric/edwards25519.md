@@ -1,10 +1,10 @@
 ---
 title: Edwards25519 Elliptic Curve
 ---
-# Edwards25519 Elliptic Curve
+# Kurva Elips Edwards25519
 
-!!! note Author is nowhere close to being a cryptographer. Be sceptical on
-accuracy.
+!!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
+terhadap keakuratannya.
 
 !!! note This article is only about the underlying curve. Public key derivation
 and signing algorithm will be treated separately.
