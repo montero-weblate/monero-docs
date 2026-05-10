@@ -3,8 +3,8 @@ title: Private Keys in Monero
 ---
 # Private Keys in Monero
 
-!!! note Author is nowhere close to being a cryptographer. Be sceptical on
-accuracy.
+!!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
+terhadap keakuratannya.
 
 In Monero, the root private key is generated
 [randomly](../../cryptography/prng.md). Other private keys are derived
