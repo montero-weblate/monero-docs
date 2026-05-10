@@ -3,8 +3,8 @@ title: Public Keys in Monero
 ---
 # Public Keys in Monero
 
-!!! note Author is nowhere close to being a cryptographer. Be sceptical on
-accuracy.
+!!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
+terhadap keakuratannya.
 
 Public key is deterministically derived from private key based on [edwards25519
 curve](../../cryptography/asymmetric/edwards25519.md) with a little
