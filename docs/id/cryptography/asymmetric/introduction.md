@@ -1,10 +1,10 @@
 ---
 title: Asymmetric Cryptography in Monero
 ---
-# Asymmetric Cryptography in Monero
+# Kriptografi Asimetris di Monero
 
-!!! note Author is nowhere close to being a cryptographer. Be sceptical on
-accuracy.
+!!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
+terhadap keakuratannya.
 
 Before we get to Monero specific stuff, a little bit of context. We are talking
 asymmetric cryptography here. The "asymmetric" simply means the are two keys:
