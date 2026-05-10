@@ -3,8 +3,8 @@ title: Monero Private Key Image
 ---
 # Monero Private Key Image
 
-!!! note Author is nowhere close to being a cryptographer. Be sceptical on
-accuracy.
+!!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
+terhadap keakuratannya.
 
 Private key image serves to detect double spending attempts.
 
