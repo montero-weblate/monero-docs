@@ -1,4 +1,4 @@
-# Offline Transaction Signing
+# Firma delle transazioni offline
 
 !!! warning This is **NOT** necessarily the recommended cold storage setup, due
 to high complexity, large room for errors and employing a general purpose
