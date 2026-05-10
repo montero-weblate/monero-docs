@@ -1,10 +1,9 @@
 ---
 title: Accepting Monero for Businesses
 ---
-# Accepting Monero for Businesses
+# Menerima Monero untuk Bisnis
 
-This is for businesses that want to accept Monero in an automated way,
-including:
+Ini ditujukan untuk bisnis yang ingin menerima Monero secara otomatis, termasuk:
 
 * merchants
 * service providers
