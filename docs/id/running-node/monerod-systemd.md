@@ -12,7 +12,7 @@ txproxytor:
 publicnode: "#public-node=1                  # Advertise to other users they can use this node for connecting their wallets"
 
 ---
-# Running Monerod via Systemd
+# Menjalankan Monerod melalui Systemd
 !!! success "The end goal" You will publicly offer the following services, where
 xxx.yyy.zzz.vvv is your server IP address.
 
@@ -36,7 +36,7 @@ config.
 ??? warning "Public RPC may be resource intensive" Providing Public RPC via the
 flag `public-node=1` may use a sizeable amount of resources on your PC.
 
-## Assumptions
+## Asumsi
 
 You possess:
 
