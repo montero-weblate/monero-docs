@@ -3,7 +3,7 @@ title: CryptoNight
 ---
 # CryptoNight
 
-> CryptoNight is a memory hard hash function
+> CryptoNight adalah fungsi hash yang keras terhadap memori
 
 ## Background
 
@@ -82,7 +82,7 @@ function to dig further.
 the CryptoNight algorithm. For implementation details refer to CryptoNote
 Standard and Monero source code. See references at the bottom.
 
-### Overview
+### Ikhtisar
 
 CryptoNight attempts to make memory access a bottleneck for performance ("memory
 hardness"). It has three steps:
