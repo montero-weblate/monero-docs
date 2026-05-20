@@ -1,10 +1,10 @@
 ---
 title: Monero Pseudorandom Number Generator
 ---
-# Monero Pseudorandom Number Generator
+# Generator Bilangan Pseudoacak Monero
 
-Monero uses PRNG based on the Keccak hashing function. Basically, output of the
-previous hashing round is input for the next one.
+Monero menggunakan PRNG berdasarkan fungsi hashing Keccak. Pada dasarnya,
+keluaran putaran hashing sebelumnya adalah masukan untuk yang berikutnya.
 
 The initial seed comes from entropy sources provided by operating system. On
 Linux and MacOS the seed comes from `/dev/urandom`. On Windows the WinAPI
