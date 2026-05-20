@@ -2,15 +2,15 @@
 title: MyMonero Mnemonic Scheme
 ---
 
-The MyMonero scheme can be thought of as the 13-word version of the [Legacy
-Mnemonic Scheme](./legacy.md). Most processes remain the same in both schemes,
-but of course there are things that are different. For example, the method for
-deriving the checksum and the method for deriving the hexadecimal seed are the
-same, but since MyMonero generates a shorter hexadecimal seed, deriving private
-keys from that hexadecimal seed is different than in Legacy.
+Skema MyMonero dapat dianggap sebagai versi 13 kata dari [Skema Mnemonik
+Warisan](./legacy.md). Sebagian besar proses tetap sama dalam kedua skema,
+tetapi tentu saja ada hal-hal yang berbeda. Misalnya, metode untuk menurunkan
+checksum dan metode untuk menurunkan benih heksadesimal sama, tetapi karena
+MyMonero menghasilkan benih heksadesimal yang lebih pendek, menurunkan kunci
+privat dari benih heksadesimal itu berbeda dibandingkan dengan Warisan.
 
-For users looking to convert a MyMonero seed into a legacy one, an offline
-converter can be found at
+Bagi pengguna yang ingin mengonversi benih MyMonero ke benih warisan, konverter
+offline dapat ditemukan di
 [xmr.llcoins.net](https://github.com/luigi1111/xmr.llcoins.net/).
 
 The MyMonero scheme was initially used by MyMonero web and mobile wallet, but
