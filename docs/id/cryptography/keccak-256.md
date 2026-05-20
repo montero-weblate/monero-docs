@@ -1,10 +1,10 @@
 ---
 title: Keccak-256 Hash Function
 ---
-# Keccak-256 Hash Function
+# Fungsi Hash Keccak-256
 
-Monero employs Keccak as a hashing function. In most context specifically
-Keccak-256 is used, providing 32-byte hashes.
+Monero menggunakan Keccak sebagai fungsi hashing. Dalam sebagian besar konteks,
+secara spesifik Keccak-256 digunakan, memberikan hash 32-byte.
 
 Keccak is the leading hashing function, designed by non-NSA designers. Keccak
 won [NIST
