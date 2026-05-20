@@ -1,10 +1,10 @@
 ---
 title: Interacting with Monero
 ---
-# Interacting with Monero
+# Berinteraksi dengan Monero
 
-You can interact with Monero via desktop GUI, commandline interface, and
-programming API.
+Anda dapat berinteraksi dengan Monero melalui antarmuka GUI desktop, antarmuka
+baris perintah, dan API pemrograman.
 
 On top of that, Monero nodes interact with each other in a peer-to-peer network.
 
