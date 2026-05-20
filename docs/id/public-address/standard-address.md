@@ -1,10 +1,10 @@
 ---
 title: Standard Address
 ---
-# Standard address
+# Alamat standar
 
-Historically, the Main address was the only available option. For that reason it
-is the most widely supported address type.
+Secara historis, alamat Utama adalah satu-satunya pilihan yang tersedia. Untuk
+alasan itu, alamat ini adalah jenis alamat yang paling banyak didukung.
 
 Its strength is simplicity. However, these days users should prefer receiving to
 subaddresses instead.
