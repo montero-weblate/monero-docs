@@ -4,9 +4,9 @@ title: Tor and I2P
 config: (../interacting/monero-config-file.md#monerodconf)
 ---
 
-!!! note "" How to add Tor and/or I2P to your Monero node
+!!! note "" Cara Menambahkan Tor dan/atau I2P ke Node Monero Anda
 
-### Assumptions
+### Asumsi
 
 You possess:
 
