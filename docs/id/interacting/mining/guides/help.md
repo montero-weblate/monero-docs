@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 ---
-## Troubleshooting
+## Pemecahan Masalah
 
 ### Anti-virus keeps removing XMRig
 
