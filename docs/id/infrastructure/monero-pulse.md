@@ -3,7 +3,7 @@ title: MoneroPulse
 ---
 # MoneroPulse
 
-## What is MoneroPulse?
+## Apa itu MoneroPulse?
 
 MoneroPulse is infrastructure for emergency checkpointing the blockchain.
 
