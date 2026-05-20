@@ -1,7 +1,7 @@
 ---
 title: Monero Technical Specification
 ---
-# Monero Technical Specs
+# Spesifikasi Teknis Monero
 
 ## Live
 
