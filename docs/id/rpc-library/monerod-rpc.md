@@ -6,22 +6,22 @@ title: "Daemon RPC documentation"
 
 **`monerod`** [Overview](../interacting/monerod-reference.md)
 
-## Introduction
+## Pendahuluan
 
 This is a list of the monerod daemon RPC calls, their inputs and outputs, and
 examples of each.
 
-Note:
-"[atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-"Atomic Units refer to the smallest fraction of 1 XMR.")" refer to the smallest
-fraction of 1 XMR according to the monerod implementation. **1 XMR = 1e12
-[atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
+Catatan:
+"[unit-atom](https://www.getmonero.org/resources/moneropedia/atomic-units.html
+"Atomic Units refer to the smallest fraction of 1 XMR.")" mengacu pada fraksi
+terkecil dari 1 XMR menurut implementasi monerod. **1 XMR = 1e12
+[unit-atom](https://www.getmonero.org/resources/moneropedia/atomic-units.html
 "Atomic Units refer to the smallest fraction of 1 XMR.").**
 
 ## JSON-RPC example
 
-The API is based on [JSON-RPC standard](https://en.wikipedia.org/wiki/JSON-RPC)
-version 2.0.
+API ini berbasis standar [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC)
+versi 2.0.
 
 Many `monerod` RPC calls use the daemon's JSON RPC interface while others use
 their own interfaces, as demonstrated [below](#other-daemon-rpc-calls).
