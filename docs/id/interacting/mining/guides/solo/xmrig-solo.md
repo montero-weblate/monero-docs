@@ -2,8 +2,8 @@
 title: How to solo mine with XMRig
 ---
 
-## Requirements
-### Wallet
+## Persyaratan
+### Dompet
 
 Before starting, you'll need to have a Monero Wallet configured.
 
