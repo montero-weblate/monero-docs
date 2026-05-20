@@ -3,10 +3,10 @@ title: Monero Docs
 hide:
   - navigation
 ---
-# Monero Documentation
+# Dokumentasi Monero
 
-Monero Docs intends to be a Knowledge Base and User Guide for interacting with
-Monero.
+Monero Docs dimaksudkan untuk menjadi Basis Pengetahuan dan Panduan Pengguna
+untuk berinteraksi dengan Monero.
 
 Contributions can be made via issues and pull requests on GitHub, or
 communicated via the #monero-docs workgroup on Matrix or IRC (libera.chat).
