@@ -3,9 +3,9 @@ title: Mining Monero
 ---
 # Mining Monero
 
-Monero is a Proof Of Work
-(**[POW](../../proof-of-work/pow-in-cryptocurrencies.md)**) cryptocurrency.\
-There are multiple ways to take part in mining Monero.
+Monero adalah mata uang kripto Bukti Kerja
+(**[POW](../../proof-of-work/pow-in-cryptocurrencies.md)**).\
+Ada berbagai cara untuk berpartisipasi dalam penambangan Monero.
 
 - [Solo Mining](./guides/solo/index.md)
 - [Pool Mining](./guides/pool/xmrig-pool.md)
