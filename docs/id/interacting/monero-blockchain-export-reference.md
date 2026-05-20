@@ -1,13 +1,13 @@
 ---
 title: monero-blockchain-export - Reference
 ---
-# `monero-blockchain-export` - Reference
+# `monero-blockchain-export` - Referensi
 
 !!! note Nowadays, there is little usage for raw blockchain export / import. In
 the past the p2p blockchain download was much slower. Back than blockchain.raw
 file was used to speed up the process of bootstrapping a node.
 
-## Overview
+## Ikhtisar
 
 The tool dumps local blockchain to raw format, known as the `blockchain.raw`
 file.
