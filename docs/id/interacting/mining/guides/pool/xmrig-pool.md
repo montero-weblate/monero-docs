@@ -2,8 +2,8 @@
 title: How to mine on a Pool with XMRig
 ---
 
-## Requirements
-### Wallet
+## Persyaratan
+### Dompet
 
 Before starting, you already need to have a wallet configured and working. The
 pool needs to know your wallet address to be able to send payments there.\
