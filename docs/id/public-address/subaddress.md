@@ -1,7 +1,7 @@
 ---
 title: Subaddress
 ---
-# Subaddress
+# Subalamat
 
 Subaddress is what you should be using by default to receive Monero.
 
