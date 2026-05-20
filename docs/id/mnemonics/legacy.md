@@ -2,21 +2,21 @@
 title: Legacy Mnemonic Scheme
 ---
 
-The legacy mnemonic scheme is the oldest and most widely-used mnemonic scheme in
-the Monero ecosystem. It comprises a total of 25 words, where the first 24 words
-are for the seed and the last word is for the checksum. The checksum word is
-used to verify the correctness of the seed.
+Skema mnemonik warisan adalah skema mnemonik tertua dan paling banyak digunakan
+dalam ekosistem Monero. Skema ini terdiri dari total 25 kata, di mana 24 kata
+pertama adalah untuk benih dan kata terakhir adalah untuk checksum. Kata
+checksum digunakan untuk memverifikasi kebenaran benih.
 
-The first 24 words are randomly selected from a list of 1626 words described in
+24 kata pertama dipilih secara acak dari daftar 1626 kata yang dijelaskan dalam
 [`src/mnemonics/english.h`](https://github.com/monero-project/monero/blob/master/src/mnemonics/english.h)
-(Wordlists available for other languages can be found in
+(Daftar kata untuk bahasa lain dapat ditemukan di
 [`src/mnemonics`](https://github.com/monero-project/monero/tree/master/src/mnemonics)).
-The checksum word is selected by calculating the [CRC32 checksum
-index](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) of a string that
-is made by concatenating the first `prefix_length`ed characters of each selected
-word. The `prefix_length` is the number of characters to be used from each word
-to calculate the checksum. [In the case of English wordlist, the `prefix_length`
-is
+Kata checksum dipilih dengan menghitung [indeks checksum
+CRC32](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) dari string yang
+dibuat dengan menggabungkan karakter pertama yang panjangnya `prefix_length`
+dari setiap kata yang dipilih. `prefix_length` adalah jumlah karakter yang akan
+digunakan dari setiap kata untuk menghitung checksum. [Dalam kasus daftar kata
+bahasa Inggris, `prefix_length` adalah
 3](https://github.com/monero-project/monero/blob/master/src/mnemonics/english.h#L52C47-L52C48).
 
 Example of calculating the checksum word:
