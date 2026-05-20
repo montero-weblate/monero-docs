@@ -1,9 +1,9 @@
 ---
 title: monero-wallet-gui - Reference
 ---
-# `monero-wallet-gui` - Reference
+# `monero-wallet-gui` - Referensi
 
-## Overview
+## Ikhtisar
 
 ### Desktop GUI wallet
 
