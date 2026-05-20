@@ -1,9 +1,9 @@
 ---
 title: Proof of Work in Cryptocurrencies
 ---
-# Proof of Work in Cryptocurrencies
+# Bukti Kerja dalam Mata Uang Kripto
 
-> Proof of work is a Sybil protection mechanism
+> Bukti kerja adalah mekanisme perlindungan Sybil
 
 ## PoW protects against Sybil attack
 
