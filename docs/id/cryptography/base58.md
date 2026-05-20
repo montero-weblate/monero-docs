@@ -3,10 +3,10 @@ title: Base58
 ---
 # Base58
 
-Base58 is a binary-to-text encoding scheme. It is similar to Base64 but has been
-modified to avoid both non-alphanumeric characters and letters which might look
-ambiguous when printed. The characters excluded in relation to Base64 are:
-`IOl0+/`
+Base58 adalah skema pengodean biner-ke-teks. Skema ini mirip dengan Base64
+tetapi telah dimodifikasi untuk menghindari karakter non-alfanumerik dan huruf
+yang mungkin terlihat ambigu saat dicetak. Karakter yang dikecualikan dalam
+hubungannya dengan Base64 adalah: `IOl0+/`
 
 Base58 does not strictly specify the format. This results in some
 implementations being incompatible with others, for example with regard to
