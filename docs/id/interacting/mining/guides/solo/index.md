@@ -3,7 +3,7 @@ title: Mining Monero
 ---
 # Solo Mining Monero
 
-There are multiple ways to solo mine Monero.
+Ada berbagai cara untuk menambang Monero secara solo.
 
 - [Monero GUI / CLI](./wallet-gui-cli.md)
 - [XMRig](./xmrig-solo.md)
