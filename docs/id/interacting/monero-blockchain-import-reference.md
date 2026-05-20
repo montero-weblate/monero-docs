@@ -1,13 +1,14 @@
 ---
 title: monero-blockchain-import - Reference
 ---
-# `monero-blockchain-import` - Reference
+# `monero-blockchain-import` - Referensi
 
-!!! note Nowadays, there is little usage for raw blockchain export / import. In
-the past the p2p blockchain download was much slower. Back than blockchain.raw
-file was used to speed up download process of bootstrapping a node.
+!!! note Saat ini, hanya sedikit penggunaan untuk ekspor/impor blockchain
+mentah. Di masa lalu, unduhan blockchain p2p jauh lebih lambat. Dulu file
+blockchain.raw digunakan untuk mempercepat proses unduhan dalam bootstrapping
+node.
 
-## Overview
+## Ikhtisar
 
 The tool imports bootstrap file `blockchain.raw` to your full node.
 
