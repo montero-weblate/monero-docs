@@ -16,91 +16,100 @@ offline).
 
 Penandatanganan transaksi offline meliputi:
 
-* Creating an unsigned transaction on an online, view-only wallet
-* Moving the unsigned transaction to an offline machine
-* Signing the unsigned transaction on an offline machine
-* Moving the signed transaction back to online, view-only wallet
-* Broadcasting the transaction
+* Membuat transaksi tanpa tanda tangan pada dompet online yang hanya dapat
+  dilihat
+* Memindahkan transaksi yang belum ditandatangani ke mesin offline
+* Menandatangani transaksi yang belum ditandatangani pada mesin offline
+* Pindahkan transaksi yang telah ditandatangani kembali ke dompet daring yang
+  hanya dapat dilihat
+* Menyiarakan transaksi
 
-## Creating a new offline wallet
+## Membuat dompet offline baru
 
-Constructing a new offline wallet is done by executing:
+Untuk membuat dompet offline baru, jalankan perintah berikut:
 
 ```
 monero-wallet-cli --generate-new-wallet /path/to/wallet-file
 ```
 
-on an offline machine. Record the seed on paper by executing `seed` on the
-offline wallet.
+di perangkat yang tidak terhubung ke internet. Catat seed tersebut di atas
+kertas dengan menjalankan perintah `seed` pada dompet offline.
 
-## Creating a new offline wallet with seed offset passphrase
+## Membuat dompet offline baru dengan frasa sandi offset benih
 
-Seed and seed offset passphrase combine to create a new seed. You can store seed
-and seed offset passphrase in separate places so that a thief can't steal your
-fund without stealing seed and seed offset passphrase. I recommend 6 to 8
-(english) words as a seed offset passphrase as one english word has 11 bits of
-entropy on average and 8 words have 88 bits of entropy. With seed passphrase,
-you can also create decoy wallets that contain a little bit of money and can
-protect you from torturers or blackmailers who demand money from you.
+Kata sandi benih dan kata sandi offset benih digabungkan untuk membuat benih
+baru. Anda dapat menyimpan kata sandi benih dan kata sandi offset benih di
+tempat yang terpisah sehingga pencuri tidak dapat mencuri dana Anda tanpa
+mencuri kata sandi benih dan kata sandi offset benih tersebut. Saya
+merekomendasikan 6 hingga 8 kata (bahasa Inggris) sebagai frasa sandi offset
+benih, karena satu kata bahasa Inggris rata-rata memiliki 11 bit entropi dan 8
+kata memiliki 88 bit entropi. Dengan frasa sandi benih, Anda juga dapat membuat
+dompet umpan yang berisi sedikit uang dan dapat melindungi Anda dari penyiksa
+atau pemeras yang menuntut uang dari Anda.
 
-If you want to create an offline wallet with seed and seed passphrase, create an
-offline wallet, record the seed on paper, delete the wallet file, generate seed
-offset passphrase, record seed offset passphrase on paper, and execute
+Jika Anda ingin membuat dompet offline dengan seed dan frasa sandi seed, buatlah
+dompet offline, catat seed tersebut di atas kertas, hapus berkas dompet, buat
+frasa sandi offset seed, catat frasa sandi offset seed di atas kertas, dan
+jalankan
 
 ```
 monero-wallet-cli --generate-new-wallet /path/to/wallet-file \
 ---restore-deterministic-wallet
 ```
 
-to restore from seed and seed offset passphrase. When you restore from seed, you
-can enter seed offset passphrase.
+Untuk memulihkan dari seed dan frasa sandi offset seed. Saat Anda memulihkan
+dari seed, Anda dapat memasukkan frasa sandi offset seed.
 
-Generate seed offset passphrase on an offline machine or with diceware because
-humans are bad at creating random passphrases.
+Hasilkan frasa sandi offset awal pada mesin offline atau dengan diceware karena
+manusia kurang mahir dalam membuat frasa sandi acak.
 
-If you want to reconstruct an existing offline wallet that received or sent
-transactions, you need extra steps. Refer to `Restoring offline wallet`.
+Jika Anda ingin membangun kembali dompet offline yang sudah ada yang menerima
+atau mengirim transaksi, Anda perlu melakukan langkah tambahan. Lihat
+`Memulihkan dompet offline`.
 
-## Creating a new view-only wallet
+## Membuat dompet baru yang hanya dapat dilihat
 
-To create a view-only wallet, copy primary address and secret view key from an
-offline wallet to an online machine where a view-only wallet is going to be
-created. You can get primary address by executing `address` on an offline wallet
-and secret view key by executing `viewkey` on the offline wallet.
+Untuk membuat dompet baca-saja, salin alamat utama dan kunci tampilan rahasia
+dari dompet offline ke perangkat online tempat dompet baca-saja akan dibuat.
+Anda dapat memperoleh alamat utama dengan menjalankan perintah `address` pada
+dompet offline, dan kunci tampilan rahasia dengan menjalankan perintah `viewkey`
+pada dompet offline tersebut.
 
-You can use a microSD card and two USB microSD card readers to exchange data
-between an offline wallet and a view-only wallet. You can also use a USB flash
-drive.
+Anda dapat menggunakan kartu microSD dan dua pembaca kartu microSD USB untuk
+mentransfer data antara dompet offline dan dompet yang hanya dapat dilihat. Anda
+juga dapat menggunakan flash drive USB.
 
-To create a view-only wallet on an online machine, execute
+Untuk membuat dompet yang hanya dapat dilihat di mesin daring, jalankan
 
 ```
 monero-wallet-cli --generate-from-view-key /path/to/wallet-file \
 --daemon-address remote-node-address:port
 ```
 
-If you want to reconstruct an existing view-only wallet that received or sent
-transactions, refer to `Restoring view-only wallet`.
+Jika Anda ingin memulihkan dompet yang hanya dapat dilihat yang pernah menerima
+atau mengirim transaksi, silakan lihat `Memulihkan dompet yang hanya dapat
+dilihat`.
 
-## Launching offline wallet
+## Meluncurkan dompet offline
 
-Execute
+Jalankan
 
 ```
 monero-wallet-cli --wallet-file /path/to/wallet-file
 ```
 
-## Launching a view-only wallet
+## Meluncurkan dompet hanya-lihat
 
-Execute
+Jalankan
 
 ```
 monero-wallet-cli --wallet-file /path/to/wallet-file \
 --daemon-address remote-node-address:port
 ```
 
-It's safe to sync your wallet over clearnet. If you want to broadcast a
-transaction without revealing your IP address, execute
+Sinkronisasi dompet Anda melalui clearnet aman dilakukan. Jika Anda ingin
+menyiarkan transaksi tanpa mengungkapkan alamat IP Anda, jalankan perintah
+berikut
 
 ```
 monero-wallet-cli --wallet-file /path/to/wallet-file \
@@ -108,140 +117,150 @@ monero-wallet-cli --wallet-file /path/to/wallet-file \
 --proxy 127.0.0.1:tor-or-i2p-port
 ```
 
-Synchronizing wallet over clearnet is a lot faster than doing it on tor or i2p.
-Thus, consider synchronizing over clearnet even if you broadcast transactions
-over tor or i2p.
+Sinkronisasi dompet melalui clearnet jauh lebih cepat daripada melakukannya
+melalui Tor atau i2p. Oleh karena itu, pertimbangkan untuk melakukan
+sinkronisasi melalui clearnet meskipun Anda menyiarkan transaksi melalui Tor
+atau i2p.
 
-## Offline transaction signing
+## Penandatanganan transaksi offline
 
-Execute any wallet command that transfers monero to any address. For example,
+Jalankan perintah dompet apa pun yang mentransfer Monero ke alamat mana pun.
+Misalnya,
 
 ```
 transfer xmr-address amount-of-xmr-to-send
 ```
 
-Any transfer command on a view-only wallet creates `unsigned_monero_tx` in the
-current working directory.
+Perintah transfer apa pun pada dompet hanya-lihat akan membuat
+`unsigned_monero_tx` di direktori kerja saat ini.
 
-Move `unsigned_monero_tx` to an offline machine that has an offline wallet.
-Execute
+Pindahkan `unsigned_monero_tx` ke mesin offline yang memiliki dompet offline.
+Jalankan
 
 ```
 sign_transfer
 ```
 
-on the offline wallet in the directory with `unsigned_monero_tx`.
-`signed_monero_tx` file is created in the current working directory. Move
-`signed_monero_tx` to the online machine with a view-only wallet. In the
-directory with `signed_monero_tx`, launch the view-only wallet, and execute
+di dompet offline pada direktori yang berisi berkas `unsigned_monero_tx`. Berkas
+`signed_monero_tx` akan dibuat di direktori kerja saat ini. Pindahkan berkas
+`signed_monero_tx` ke mesin online yang menggunakan dompet hanya-baca. Di
+direktori yang berisi berkas `signed_monero_tx`, jalankan dompet hanya-baca,
+lalu jalankan
 
 ```
 submit_transfer
 ```
 
-Because a view-only wallet doesn't have key images, it can't see outgoing
-transactions. To make a view-only wallet see outgoing transactions, it has to
-export new outputs created by `submit_transfer` to an offline wallet which
-creates key images out of new outputs.
+Karena dompet hanya-baca tidak memiliki gambar kunci, dompet tersebut tidak
+dapat melihat transaksi keluar. Agar dompet hanya-baca dapat melihat transaksi
+keluar, dompet tersebut harus mengekspor output baru yang dibuat oleh
+`submit_transfer` ke dompet offline yang akan membuat gambar kunci dari output
+baru tersebut.
 
-Execute
+Jalankan
 
 ```
 export_outputs outputs
 ```
 
-on a view-only wallet. Move `outputs` file to the offline machine with an
-offline wallet. Launch the offline wallet, and execute
+pada dompet yang hanya dapat dilihat. Pindahkan berkas `outputs` ke komputer
+offline yang menggunakan dompet offline. Buka dompet offline tersebut, lalu
+jalankan
 
 ```
 import_outputs /path/to/outputs
 ```
 
-Export key images derived from new outputs by executing
+Ekspor gambar-gambar utama yang dihasilkan dari hasil baru dengan menjalankan
 
 ```
 export_key_images key_images
 ```
 
-on an offline wallet. Move `key_images` file to the machine with a view-only
-wallet. Launch the view-only wallet, and execute
+di dompet offline. Pindahkan berkas `key_images` ke perangkat yang memiliki
+dompet hanya-baca. Buka dompet hanya-baca tersebut, lalu jalankan
 
 ```
 import_key_images /path/to/key_images
 ```
 
-## Updating wallet software on an offline signing machine
+## Memperbarui perangkat lunak dompet pada mesin penandatanganan offline
 
-When you update an offline machine with offline wallets, you can't just connect
-the machine to the internet and update wallet software because doing so exposes
-offline wallets to the internet.
+Saat Anda memperbarui perangkat offline yang menggunakan dompet offline, Anda
+tidak bisa begitu saja menghubungkan perangkat tersebut ke internet dan
+memperbarui perangkat lunak dompet, karena hal itu akan membuat dompet offline
+terpapar ke internet.
 
-Instead, boot OS installation media, wipe filesystems, and then connect to the
-internet, and install everything from scratch again.
+Sebaliknya, jalankan media instalasi sistem operasi, hapus seluruh sistem
+berkas, lalu sambungkan ke internet, dan instal semuanya dari awal lagi.
 
-If your root filesystem is encrypted, OS installation media can connect to the
-internet from the beginning because encrypted data are safe until they are
-decrypted.
+Jika sistem berkas root Anda dienkripsi, media instalasi sistem operasi dapat
+terhubung ke internet sejak awal karena data yang dienkripsi tetap aman hingga
+dienkripsi.
 
-## Restoring offline wallet
+## Memulihkan dompet offline
 
-After updating wallet software on an offline signing machine by wiping it out
-and reinstalling everything, you have to restore offline wallet.
+Setelah memperbarui perangkat lunak dompet pada mesin penandatanganan offline
+dengan menghapus seluruh datanya dan menginstal ulang semuanya, Anda harus
+memulihkan dompet offline tersebut.
 
-Restore an offline wallet from seed (and seed offset passphrase) by executing
+Pulihkan dompet offline dari frasa benih (dan frasa sandi offset benih) dengan
+menjalankan
 
 ```
 monero-wallet-cli --generate-new-wallet wallet-file --restore-deterministic-wallet
 ```
 
-The new offline wallet can't sign new transactions because it doesn't have all
-transaction outputs that precede a new unsigned transaction. Thus, it first has
-to import all outputs from a view-only wallet.
+Dompet offline yang baru tidak dapat menandatangani transaksi baru karena tidak
+memiliki semua output transaksi yang mendahului transaksi baru yang belum
+ditandatangani tersebut. Oleh karena itu, dompet tersebut harus terlebih dahulu
+mengimpor semua output dari dompet yang hanya dapat dilihat.
 
-On a view-only wallet that was derived from the offline wallet, execute
+Pada dompet yang hanya dapat dilihat yang dibuat dari dompet offline, jalankan
 
 ```
 export_outputs all all_outputs
 ```
 
-`all` is important because `export_outputs` exports only new outputs that
-weren't exported before, but
+`all` penting karena `export_outputs` hanya mengekspor output baru yang
+sebelumnya belum diekspor, tetapi
 
 ```
 export_outputs all
 ```
 
-exports all outputs. Move `all_outputs` file to the offline machine with the
-offline wallet. Execute
+mengekspor semua hasil. Pindahkan berkas `all_outputs` ke mesin offline yang
+memiliki dompet offline. Jalankan
 
 ```
 import_outputs /path/to/all_outputs
 ```
 
-on the new offline wallet.
+pada dompet offline yang baru.
 
-## Restoring view-only wallet
+## Mengembalikan dompet hanya-lihat
 
-If you reconstruct view-only wallet, because it doesn't have key images, it
-can't see outgoing transactions. If it can't see outgoing transactions, it
-reports wrong account balances. Thus, it has to import all key images from its
-corresponding offline wallet.
+Jika Anda merekonstruksi dompet hanya-lihat, karena tidak memiliki citra kunci,
+dompet tersebut tidak dapat melihat transaksi keluar. Jika tidak dapat melihat
+transaksi keluar, dompet tersebut akan melaporkan saldo akun yang salah. Oleh
+karena itu, dompet tersebut harus mengimpor semua citra kunci dari dompet
+offline yang sesuai.
 
-On the offline wallet, execute
+Pada dompet offline, jalankan
 
 ```
 export_key_images all all_key_images
 ```
 
-`export_key_images` doesn't work because it exports only new key images that
-weren't exported before.
+`export_key_images` tidak berfungsi karena hanya mengekspor gambar kunci baru
+yang belum pernah diekspor sebelumnya.
 
 ```
 export_key_images all
 ```
 
-exports all key images. Move `all_key_images` file to the machine with the
-view-only wallet. Execute
+Mengekspor semua gambar kunci. Pindahkan file `all_key_images` ke mesin dengan
+dompet hanya-lihat. Jalankan
 
 ```
 import_key_images /path/to/all_key_images
