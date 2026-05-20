@@ -1,7 +1,7 @@
 ---
 title: Private Keys in Monero
 ---
-# Private Keys in Monero
+# Kunci Privat dalam Monero
 
 !!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
 terhadap keakuratannya.
