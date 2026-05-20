@@ -1,10 +1,10 @@
 ---
 title: Integrated Address
 ---
-# Integrated Address
+# Alamat Terintegrasi
 
-Integrated addresses are ideal for accepting Monero in an automated fashion -
-like in online stores and exchanges.
+Alamat terintegrasi ideal untuk menerima Monero secara otomatis - seperti di
+toko online dan pertukaran.
 
 Monero integrated address embeds a payment ID. This allows you to learn for what
 you are being paid.
