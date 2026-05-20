@@ -1,9 +1,9 @@
 ---
 title: monerod - Reference
 ---
-# `monerod` - Reference
+# `monerod` - Referensi
 
-## Overview
+## Ikhtisar
 
 ### Connects you to Monero network
 
