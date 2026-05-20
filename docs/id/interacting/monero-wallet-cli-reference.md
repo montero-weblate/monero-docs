@@ -1,13 +1,13 @@
 ---
 title: monero-wallet-cli - Reference
 ---
-# `monero-wallet-cli` - Reference
+# `monero-wallet-cli` - Referensi
 
 !!! note Get yourself comfortable with a friendly Monero CLI wallet. It is the
 most reliable and most complete wallet for Monero. Use
 [stagenet](../infrastructure/networks.md#stagenet) for learning.
 
-## Overview
+## Ikhtisar
 
 ### Command line wallet
 
