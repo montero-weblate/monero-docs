@@ -4,7 +4,7 @@ title: How to mine on P2Pool with XMRig
 
 ### Pool Website
 
-- P2Pool.io Main [Clearnet](https://p2pool.io) and
+- P2Pool.io Utama [Clearnet](https://p2pool.io) dan
   [Onion](http://yucmgsbw7nknw7oi3bkuwudvc657g2xcqahhbjyewazusyytapqo4xid.onion/)
 - P2Pool.io Mini [Clearnet](https://p2pool.io/mini) and
   [Onion](http://yucmgsbw7nknw7oi3bkuwudvc657g2xcqahhbjyewazusyytapqo4xid.onion/mini/)
@@ -24,8 +24,8 @@ Gupax bundles P2Pool and XMRig into a single app with simple setup.
 
 - Visit [Gupax](https://gupax.io).
 
-## Requirements
-### Wallet
+## Persyaratan
+### Dompet
 
 Before starting, you'll need to have a Monero Wallet configured.\
 It's highly recommended to create a new wallet for mining because wallet
