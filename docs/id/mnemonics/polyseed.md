@@ -2,15 +2,15 @@
 title: Polyseed Mnemonic Scheme
 ---
 
-> **Note**: Adapted for monero-docs. The expanded original README is available
-> on Tevador's [Polyseed repository](https://github.com/tevador/polyseed)
+> **Catatan**: Disesuaikan untuk monero-docs. README asli yang diperluas
+> tersedia di [repositori Polyseed](https://github.com/tevador/polyseed) Tevador
 
-The polyseed mnemonic scheme was initially intended for implementation alongside
-Seraphis and Jamtis, though it was adopted by the community ahead of schedule
-due to its efficiency, simplicity and security. One such UX improvement is the
-embedding of the [wallet birthday (restore
-height)](#wallet-birthday-restore-height), which removes the need for users to
-store the info manually.
+Skema mnemonik polyseed awalnya dimaksudkan untuk diimplementasikan bersama
+Seraphis dan Jamtis, meskipun skema ini diadopsi oleh komunitas lebih awal dari
+jadwal karena efisiensi, kesederhanaan, dan keamanannya. Salah satu peningkatan
+UX tersebut adalah penyematan [tanggal ulang tahun dompet (tinggi
+pemulihan)](#wallet-birthday-restore-height), yang menghilangkan kebutuhan
+pengguna untuk menyimpan informasi secara manual.
 
 Unlike the legacy mnemonic scheme, the polyseed mechanism does not allow you to
 choose the words from a wordlist. Instead, the words are generated from the
