@@ -2,25 +2,25 @@
 title: "Wallet RPC documentation"
 ---
 
-# Wallet RPC
+# Dompet RPC
 
 **`monero-wallet-rpc`**
-[Overview](../interacting/monero-wallet-rpc-reference.md)
+[Ikhtisar](../interacting/monero-wallet-rpc-reference.md)
 
-## Introduction
+## Pendahuluan
 
-This is a list of the monero-wallet-rpc calls, their inputs and outputs, and
-examples of each. The program monero-wallet-rpc replaced the rpc interface that
-was in simplewallet and then monero-wallet-cli.
+Ini adalah daftar panggilan monero-wallet-rpc, masukan dan keluarannya, serta
+contoh masing-masing. Program monero-wallet-rpc menggantikan antarmuka rpc yang
+ada di simplewallet dan kemudian monero-wallet-cli.
 
-## JSON-RPC Example
-The API is based on [JSON-RPC standard](https://en.wikipedia.org/wiki/JSON-RPC)
-version 2.0.
+## Contoh JSON-RPC
+API ini berbasis standar [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC)
+versi 2.0.
 
-All `monero-wallet-rpc` calls use the same JSON-RPC interface.
+Semua panggilan `monero-wallet-rpc` menggunakan antarmuka JSON-RPC yang sama.
 
-Assuming your `monero-wallet-rpc` is running on 127.0.0.1:18088, you would call
-it like this:
+Dengan asumsi `monero-wallet-rpc` Anda berjalan di 127.0.0.1:18088, Anda akan
+memanggilnya seperti ini:
 
 ```json
 IP=127.0.0.1
@@ -33,8 +33,8 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-If `monero-wallet-rpc` was executed with the `--rpc-login` argument as
-`username:password`, then follow this example:
+Jika `monero-wallet-rpc` dijalankan dengan argumen `--rpc-login` sebagai
+`username:password`, maka ikuti contoh ini:
 
 ```json
 IP=127.0.0.1
@@ -48,17 +48,17 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-Note:
-"[atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-"Atomic Units refer to the smallest fraction of 1 XMR.")" refer to the smallest
-fraction of 1 XMR according to the monerod implementation. **1 XMR = 1e12
-[atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-"Atomic Units refer to the smallest fraction of 1 XMR.").**
+Catatan:
+"[unit-atom](https://www.getmonero.org/resources/moneropedia/atomic-units.html
+"Unit Atom mengacu pada fraksi terkecil dari 1 XMR.")" mengacu pada fraksi
+terkecil dari 1 XMR menurut implementasi monerod. **1 XMR = 1e12
+[unit-atom](https://www.getmonero.org/resources/moneropedia/atomic-units.html
+"Unit Atom mengacu pada fraksi terkecil dari 1 XMR.").**
 
-## Index of JSON-RPC Methods
+## Indeks Metode JSON-RPC
 
-- [**add_address_book**](#add_address_book)
-- [**auto_refresh**](#auto_refresh)
+- [**tambah_buku_alamat**](#add_address_book)
+- [**penyegaran_otomatis**](#auto_refresh)
 - [**change_wallet_password**](#change_wallet_password)
 - [**check_reserve_proof**](#check_reserve_proof)
 - [**check_spend_proof**](#check_spend_proof)
@@ -253,12 +253,12 @@ Outputs:
 -   _good_ - boolean; States if the inputs proves the reserve.
 -   _spent_ - unsigned int; Amount (in
     [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-    "Atomic Units refer to the smallest fraction of 1 XMR.")) of the total that
-    has been spent.
+    "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.")) of the total that has
+    been spent.
 -   _total_ - unsigned int; Total amount (in
     [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-    "Atomic Units refer to the smallest fraction of 1 XMR.")) of the reserve
-    that was proven.
+    "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.")) of the reserve that
+    was proven.
 
 In the example below, the reserve has been proven:
 
@@ -644,23 +644,23 @@ Outputs:
     -   _amount_in_ - unsigned int (64 bit); The sum of the inputs spent by the
         transaction in
         [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-        "Atomic Units refer to the smallest fraction of 1 XMR.").
+        "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.").
     -   _amount_out_ - unsigned int (64 bit); The sum of the outputs created by
         the transaction in
         [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-        "Atomic Units refer to the smallest fraction of 1 XMR.").
+        "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.").
     -   _recipients_ - list of:
         -   _address_ - string; The public address of the recipient.
         -   _amount_ - unsigned int; The amount sent to the recipient in
             [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-            "Atomic Units refer to the smallest fraction of 1 XMR.").
+            "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.").
     -   _change_address_ - string; The address of the change recipient.
     -   _change_amount_ - unsigned int; The amount sent to the change address in
         [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-        "Atomic Units refer to the smallest fraction of 1 XMR.").
+        "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.").
     -   _fee_ - unsigned int; The fee charged for the transaction in
         [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-        "Atomic Units refer to the smallest fraction of 1 XMR.").
+        "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.").
     -   _payment_id_ - string; payment ID for this transfer.
     -   _ring_size_ - unsigned int; The number of inputs in the ring (1 real
         output + the number of decoys from the blockchain) (Unless dealing with
@@ -1566,8 +1566,8 @@ Inputs:
     reserve. (ignored if `all` is set to true)
 -   _amount_ - unsigned int; Amount (in
     [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-    "Atomic Units refer to the smallest fraction of 1 XMR.")) to prove the
-    account has in reserve. (ignored if `all` is set to true)
+    "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.")) to prove the account
+    has in reserve. (ignored if `all` is set to true)
 -   _message_ - string; (Optional) add a message to the signature to further
     authenticate the proving process. If a _message_ is added to
     `get_reserve_proof` (optional), this message will be required when using
@@ -2079,12 +2079,12 @@ Outputs:
 -   _height_ - unsigned int;
 -   _spent_ - unsigned int; Amount (in
     [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-    "Atomic Units refer to the smallest fraction of 1 XMR.")) spent from those
-    key images.
+    "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.")) spent from those key
+    images.
 -   _unspent_ - unsigned int; Amount (in
     [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-    "Atomic Units refer to the smallest fraction of 1 XMR.")) still available
-    from those key images.
+    "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.")) still available from
+    those key images.
 
 Example:
 
@@ -2539,7 +2539,7 @@ Inputs:
 -   _address_ - string; Wallet address
 -   _amount_ - unsigned int; (optional) the integer amount to receive, in
     [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-    "Atomic Units refer to the smallest fraction of 1 XMR.").
+    "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.").
 -   _payment_id_ - string; (Optional, defaults to a random ID) 16 characters hex
     encoded.
 -   _recipient_name_ - string; (optional) name of the payment recipient
@@ -2607,7 +2607,7 @@ Outputs:
     -   _address_ - string; Wallet address
     -   _amount_ - unsigned int; Integer amount to receive, in
         [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-        "Atomic Units refer to the smallest fraction of 1 XMR.") (0 if not
+        "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.") (0 if not
         provided)
     -   _payment_id_ - string; (Optional, defaults to a random ID) 16 characters
         hex encoded.
@@ -3662,7 +3662,7 @@ Inputs:
 -   _destinations_ - array of destinations to receive XMR:
     -   _amount_ - unsigned int; Amount to send to each destination, in
         [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-        "Atomic Units refer to the smallest fraction of 1 XMR.").
+        "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.").
     -   _address_ - string; Destination public address.
 -   _account_index_ - unsigned int; (Optional) Transfer from this account index.
     (Defaults to 0)
@@ -3763,7 +3763,7 @@ Inputs:
 -   _destinations_ - array of destinations to receive XMR:
     -   _amount_ - unsigned int; Amount to send to each destination, in
         [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html
-        "Atomic Units refer to the smallest fraction of 1 XMR.").
+        "Unit Atom mengacu pada fraksi terkecil dari 1 XMR.").
     -   _address_ - string; Destination public address.
 -   _account_index_ - unsigned int; (Optional) Transfer from this account index.
     (Defaults to 0)
