@@ -1,9 +1,10 @@
 ---
 title: Cryptography in Monero
 ---
-# Cryptography in Monero
+# Kriptografi dalam Monero
 
-Monero uses a wide variety of cryptographic primitives for various use cases.
+Monero menggunakan berbagai macam primitif kriptografi untuk berbagai kasus
+penggunaan.
 
 Comparing to altcoins, Monero cryptography is considered conservative, sound and
 robust.
