@@ -1,7 +1,7 @@
 ---
 title: Monero Private Key Image
 ---
-# Monero Private Key Image
+# Gambar Kunci Privat Monero
 
 !!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
 terhadap keakuratannya.
