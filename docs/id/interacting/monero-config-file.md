@@ -8,9 +8,9 @@ maxlogsize: ""
 publicnode: "#public-node=1                  # Advertise to other users they can use this node for connecting their wallets"
 
 ---
-# Monero Configuration File
+# File Konfigurasi Monero
 
-## Applicability
+## Penerapan
 
 By default Monero looks for `bitmonero.conf` in Monero [data
 directory](../interacting/overview.md#data-directory).
