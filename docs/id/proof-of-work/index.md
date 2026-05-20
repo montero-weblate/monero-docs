@@ -3,7 +3,8 @@ title: Proof of Work
 ---
 # Proof of Work
 
-> Proof of work is a way to legitimize untrusted party
+> Bukti kerja adalah cara untuk memberikan legitimasi kepada pihak yang tidak
+> terpercaya
 
 ### What exactly is proof of work?
 
