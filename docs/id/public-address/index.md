@@ -1,8 +1,8 @@
 ---
 title: Address types
 ---
-Monero addresses are what you publish/share to receive transactions.\
-Addresses can be generated offline, for free.
+Alamat Monero adalah yang Anda terbitkan/bagikan untuk menerima transaksi.\
+Alamat dapat dibuat secara offline, secara gratis.
 
 There are a few **types of public addresses** in Monero:
 
