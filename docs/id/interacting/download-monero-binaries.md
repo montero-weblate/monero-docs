@@ -3,8 +3,8 @@ title: Download Monero
 ---
 # Download Monero
 
-A single archive contains all you need to start using Monero (the full node and
-the wallet).
+Satu arsip berisi semua yang Anda butuhkan untuk mulai menggunakan Monero (node
+penuh dan dompet).
 
 We recommend downloading Monero binaries directly from GitHub:
 
