@@ -1,9 +1,9 @@
 ---
 title: Mainnet, Stagenet, Testnet
 ---
-# Networks
+# Jaringan
 
-!!! note "" Monero offers three distinct networks and blockchains:
+!!! note "" Monero menawarkan tiga jaringan dan blockchain yang berbeda:
 
     [**mainnet**](#mainnet)    
     [**stagenet**](#stagenet)    
