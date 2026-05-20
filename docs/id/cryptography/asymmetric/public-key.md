@@ -1,7 +1,7 @@
 ---
 title: Public Keys in Monero
 ---
-# Public Keys in Monero
+# Kunci Publik dalam Monero
 
 !!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
 terhadap keakuratannya.
