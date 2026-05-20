@@ -1,11 +1,11 @@
 ---
 title: Multisignature
 ---
-# Multisignature
+# Multitandatangan
 
-In cryptocurrencies, multisig feature allows to sign a transaction with more
-than one private key. Funds protected with multisig can only be spent by signing
-with M-of-N keys.
+Dalam mata uang kripto, fitur multisig memungkinkan menandatangani transaksi
+dengan lebih dari satu kunci privat. Dana yang dilindungi dengan multisig hanya
+dapat dibelanjakan dengan menandatangani menggunakan kunci M-dari-N.
 
 Example use cases:
 
