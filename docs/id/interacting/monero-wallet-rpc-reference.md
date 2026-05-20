@@ -2,7 +2,7 @@
 title: monero-wallet-rpc - Reference
 ---
 
-# `monero-wallet-rpc` - Reference
+# `monero-wallet-rpc` - Referensi
 
 !!! note This is only relevant for programmers. Everyday users won't need
 `monero-wallet-rpc`.
@@ -15,7 +15,7 @@ development on top of `monero-wallet-rpc`.
 For a list of `monero-wallet-rpc` calls, their inputs, outputs, and examples,
 visit the wallet-rpc [library](../rpc-library/wallet-rpc.md)
 
-## Overview
+## Ikhtisar
 
 ### Provides wallet API over HTTP
 
