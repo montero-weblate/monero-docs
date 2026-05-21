@@ -11,7 +11,7 @@ contentOutdated: "no"
 
 <!-- If page is translated but the English version was updated, the translation is outdated -->
 {% elif translationOutdated == "ya" %}
-## **{{ i18n_str('notices.outdatedTranslation') }}**
+## **{{ i18n_str('pemberitahuan.terjemahanUsang') }}**
 {% endif %}
 
 <!-- Show the body -->
