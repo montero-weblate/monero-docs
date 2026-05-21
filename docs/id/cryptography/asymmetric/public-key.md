@@ -6,12 +6,12 @@ title: Public Keys in Monero
 !!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
 terhadap keakuratannya.
 
-Public key is deterministically derived from private key based on [edwards25519
-curve](../../cryptography/asymmetric/edwards25519.md) with a little
-Monero-specific twist.
+Kunci publik diturunkan secara deterministik dari kunci privat berdasarkan
+[kurva edwards25519](../../cryptography/asymmetric/edwards25519.md) dengan
+sedikit sentuhan khusus Monero.
 
-Public key is meant to be shared. Assuming correct implementation, it is not
-practically possible to recover private key from public key.
+Kunci publik dimaksudkan untuk dibagikan. Dengan asumsi implementasi yang benar,
+secara praktis tidak mungkin untuk memulihkan kunci privat dari kunci publik.
 
 Public key is a **point (x,y)** on the elliptic curve.
 
