@@ -17,9 +17,9 @@ Skema MyMonero awalnya digunakan oleh dompet web dan mobile MyMonero, tetapi
 proyek lain juga mengadopsi skema ini. Skema ini dirancang untuk lebih ramah
 pengguna dan lebih mudah diingat daripada skema warisan.
 
-The MyMonero scheme comprises a total of 13 words, where the first 12 words are
-for the seed and the last word is for the checksum. The checksum word is used to
-verify the correctness of the seed.
+Skema MyMonero terdiri dari total 13 kata, di mana 12 kata pertama adalah untuk
+benih dan kata terakhir adalah untuk checksum. Kata checksum digunakan untuk
+memverifikasi kebenaran benih.
 
 Deriving checksum process is the same as the [Legacy Mnemonic
 Scheme](./legacy.md), you can check out the details from that page.
