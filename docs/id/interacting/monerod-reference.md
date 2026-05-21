@@ -5,7 +5,7 @@ title: monerod - Reference
 
 ## Ikhtisar
 
-### Connects you to Monero network
+### Menghubungkan Anda ke jaringan Monero
 
 The Monero daemon `monerod` keeps your computer synced up with the Monero
 network.
