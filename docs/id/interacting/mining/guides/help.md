@@ -3,12 +3,12 @@ title: Troubleshooting
 ---
 ## Pemecahan Masalah
 
-### Anti-virus keeps removing XMRig
+### Antivirus terus menghapus XMRig
 
-Some anti-viruses flag XMRig as malware because it is often deployed to infected
-computers to mine without the owner's consent. As it is your computer, and you
-are configuring the miner to mine for you, it is safe to add XMRig and P2Pool to
-your anti-virus whitelist.
+Beberapa antivirus menandai XMRig sebagai malware karena sering digunakan di
+komputer yang terinfeksi untuk menambang tanpa persetujuan pemilik. Karena ini
+adalah komputer Anda, dan Anda mengonfigurasi penambang untuk menambang untuk
+Anda, aman untuk menambahkan XMRig dan P2Pool ke whitelist antivirus Anda.
 
 ### Cannot read/set MSR
 
