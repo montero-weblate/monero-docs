@@ -3,9 +3,10 @@ title: Subaddress
 ---
 # Subalamat
 
-Subaddress is what you should be using by default to receive Monero.
+Subalamat adalah yang seharusnya Anda gunakan secara default untuk menerima
+Monero.
 
-## Learn for what you are being paid
+## Ketahui untuk apa Anda dibayar
 
 By providing a unique subaddress for each anticipated payment you will know for
 what you are being paid.
@@ -154,7 +155,7 @@ address](../public-address/standard-address.md).
   individual transactions (one per subaddress).
 * Convenience labels are not preserved when recreating from seed.
 
-## Reference
+## Referensi
 
 * [monero-python](https://github.com/emesik/monero-python/blob/125d5eac0d4583b586b98e21b28fb9a291db26e5/monero/wallet.py#L195)
   - the easiest to follow implementation by Michał Sałaban
