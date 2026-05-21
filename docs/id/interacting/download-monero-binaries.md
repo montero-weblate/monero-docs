@@ -1,12 +1,12 @@
 ---
 title: Download Monero
 ---
-# Download Monero
+# Unduh Monero
 
 Satu arsip berisi semua yang Anda butuhkan untuk mulai menggunakan Monero (node
 penuh dan dompet).
 
-We recommend downloading Monero binaries directly from GitHub:
+Kami merekomendasikan untuk mengunduh biner Monero langsung dari GitHub:
 
 * GUI + CLI:
   [https://github.com/monero-project/monero-gui/releases](https://github.com/monero-project/monero-gui/releases)
