@@ -7,8 +7,8 @@ title: monerod - Reference
 
 ### Menghubungkan Anda ke jaringan Monero
 
-The Monero daemon `monerod` keeps your computer synced up with the Monero
-network.
+Daemon Monero `monerod` menjaga komputer Anda tetap tersinkronisasi dengan
+jaringan Monero.
 
 It downloads and validates the blockchain from the p2p network.
 
