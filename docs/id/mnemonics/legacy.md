@@ -19,12 +19,12 @@ digunakan dari setiap kata untuk menghitung checksum. [Dalam kasus daftar kata
 bahasa Inggris, `prefix_length` adalah
 3](https://github.com/monero-project/monero/blob/master/src/mnemonics/english.h#L52C47-L52C48).
 
-Example of calculating the checksum word:
+Contoh penghitungan kata checksum:
 
-1. Randomly select (don't forget that randomness should be [cryptographically
-   secure](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator))
-   24 words from the wordlist. For example, let's say the chosen words are `lush
-   bagpipe stacking mice imitate village gang efficient strained different
+1. Pilih secara acak (jangan lupa bahwa keacakan harus [aman secara
+   kriptografis](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator))
+   24 kata dari daftar kata. Misalnya, katakanlah kata-kata yang dipilih adalah
+   `lush bagpipe stacking mice imitate village gang efficient strained different
    together vain puck roped pancakes shocking liar moisture memoir sorry
    syndrome kettle swept dehydrate`.
 2. Take the first 3 characters of each word and concatenate them. In this case,
