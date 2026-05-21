@@ -8,11 +8,11 @@ tetapi telah dimodifikasi untuk menghindari karakter non-alfanumerik dan huruf
 yang mungkin terlihat ambigu saat dicetak. Karakter yang dikecualikan dalam
 hubungannya dengan Base64 adalah: `IOl0+/`
 
-Base58 does not strictly specify the format. This results in some
-implementations being incompatible with others, for example with regard to
-alphabet order.
+Base58 tidak secara ketat menentukan formatnya. Hal ini mengakibatkan beberapa
+implementasi tidak kompatibel dengan yang lain, misalnya mengenai urutan
+alfabet.
 
-For details, see [Wikipedia](https://en.wikipedia.org/wiki/Base58).
+Untuk detail, lihat [Wikipedia](https://en.wikipedia.org/wiki/Base58).
 
 ## Base58 in Monero
 
