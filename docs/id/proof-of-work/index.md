@@ -1,12 +1,12 @@
 ---
 title: Proof of Work
 ---
-# Proof of Work
+# Bukti Kerja
 
 > Bukti kerja adalah cara untuk memberikan legitimasi kepada pihak yang tidak
 > terpercaya
 
-### What exactly is proof of work?
+### Apa sebenarnya bukti kerja?
 
 Proof of work is a cryptographic proof that untrusted party committed
 significant computational resources to solve artificial problem.
