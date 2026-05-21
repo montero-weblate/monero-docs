@@ -2,13 +2,13 @@
 title: How to mine on P2Pool with XMRig
 ---
 
-### Pool Website
+### Situs Web Pool
 
 - P2Pool.io Utama [Clearnet](https://p2pool.io) dan
   [Onion](http://yucmgsbw7nknw7oi3bkuwudvc657g2xcqahhbjyewazusyytapqo4xid.onion/)
-- P2Pool.io Mini [Clearnet](https://p2pool.io/mini) and
+- P2Pool.io Mini [Clearnet](https://p2pool.io/mini) dan
   [Onion](http://yucmgsbw7nknw7oi3bkuwudvc657g2xcqahhbjyewazusyytapqo4xid.onion/mini/)
-- P2Pool.io Nano [Clearnet](https://p2pool.io/nano) and
+- P2Pool.io Nano [Clearnet](https://p2pool.io/nano) dan
   [Onion](http://yucmgsbw7nknw7oi3bkuwudvc657g2xcqahhbjyewazusyytapqo4xid.onion/nano/)
 
 ### Observer (Miner Stats)
