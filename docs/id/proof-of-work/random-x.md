@@ -6,11 +6,11 @@ contentOutdated: "no"
 ---
 
 <!-- If the English version is outdated, all versions (for all languages) will be outdated. No need to check the state of the translations. -->
-{% if contentOutdated == "yes" %}
-## **{{ i18n_str('notices.outdatedContent') }}**
+{% if kontenUsang == "yes" %}
+## **{{ i18n_str('pemberitahuan.kontenUsang') }}**
 
 <!-- If page is translated but the English version was updated, the translation is outdated -->
-{% elif translationOutdated == "yes" %}
+{% elif translationOutdated == "ya" %}
 ## **{{ i18n_str('notices.outdatedTranslation') }}**
 {% endif %}
 
