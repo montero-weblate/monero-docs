@@ -6,10 +6,10 @@ title: Cryptography in Monero
 Monero menggunakan berbagai macam primitif kriptografi untuk berbagai kasus
 penggunaan.
 
-Comparing to altcoins, Monero cryptography is considered conservative, sound and
-robust.
+Dibandingkan dengan altcoin, kriptografi Monero dianggap konservatif, solid, dan
+kuat.
 
-Comparing to Bitcoin, Monero uses much more primitives, and some of them are
-more advanced, especially those related to privacy and Proof of Work. Some
-choices are deliberately non-standard (for better or worse) - oftentimes a
-legacy of the CryptoNote protocol.
+Dibandingkan dengan Bitcoin, Monero menggunakan primitif yang jauh lebih banyak,
+dan beberapa di antaranya lebih canggih, terutama yang terkait dengan privasi
+dan Bukti Kerja. Beberapa pilihan adalah non-standar dengan sengaja (untuk lebih
+baik atau lebih buruk) - sering kali merupakan warisan dari protokol CryptoNote.
