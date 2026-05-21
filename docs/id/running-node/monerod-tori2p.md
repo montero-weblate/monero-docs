@@ -10,7 +10,7 @@ config: (../interacting/monero-config-file.md#monerodconf)
 
 Anda memiliki:
 
-- Basic understanding of Linux administration
+- Pemahaman dasar tentang administrasi Linux
 - Root access to a Linux distribution
 - A Monero Node
 
