@@ -8,8 +8,8 @@ hide:
 Monero Docs dimaksudkan untuk menjadi Basis Pengetahuan dan Panduan Pengguna
 untuk berinteraksi dengan Monero.
 
-Contributions can be made via issues and pull requests on GitHub, or
-communicated via the #monero-docs workgroup on Matrix or IRC (libera.chat).
+Kontribusi dapat dilakukan melalui issues dan pull requests di GitHub, atau
+dikomunikasikan melalui workgroup #monero-docs di Matrix atau IRC (libera.chat).
 
 [:simple-github: GitHub](https://github.com/monero-project/monero-docs){
 .md-button } [:simple-matrix:
