@@ -8,7 +8,7 @@ baris perintah, dan API pemrograman.
 
 Selain itu, node Monero berinteraksi satu sama lain dalam jaringan peer-to-peer.
 
-## Installation directory overview
+## ’Ikhtisar direktori instalasi
 
 Once unpacked you will see several executable files. You will also find a nice
 PDF guide for the GUI wallet.
