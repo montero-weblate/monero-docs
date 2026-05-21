@@ -6,11 +6,11 @@ title: Monero Pseudorandom Number Generator
 Monero menggunakan PRNG berdasarkan fungsi hashing Keccak. Pada dasarnya,
 keluaran putaran hashing sebelumnya adalah masukan untuk yang berikutnya.
 
-The initial seed comes from entropy sources provided by operating system. On
-Linux and MacOS the seed comes from `/dev/urandom`. On Windows the WinAPI
-`CryptGenRandom` call is used for seeding.
+Benih awal berasal dari sumber entropi yang disediakan oleh sistem operasi. Di
+Linux dan MacOS, benih berasal dari `/dev/urandom`. Di Windows, panggilan WinAPI
+`CryptGenRandom` digunakan untuk penyemaian.
 
-There is no reseeding.
+Tidak ada penyemaian ulang.
 
 ## Caveats
 
@@ -22,7 +22,7 @@ There is no reseeding.
   generator. It is part of the embedded library and apparently is not used in
   actual Monero code.
 
-## Reference
+## Referensi
 
 * [Source
   code](https://github.com/monero-project/monero/blob/1a4298685aa9e694bc555ae69be59d14d3790465/src/crypto/random.c)
