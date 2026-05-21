@@ -43,7 +43,7 @@ The `l` is on the order of 2^252, so the effective key strength is technically
 252 bits, not 256 bits. This is standard for EC cryptography and is more of a
 cosmetic nuance than any concern.
 
-## Encoding
+## Pengodean
 
 In user-facing contexts, the private key integer is:
 
