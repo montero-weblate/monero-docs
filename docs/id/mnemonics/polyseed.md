@@ -12,11 +12,11 @@ UX tersebut adalah penyematan [tanggal ulang tahun dompet (tinggi
 pemulihan)](#wallet-birthday-restore-height), yang menghilangkan kebutuhan
 pengguna untuk menyimpan informasi secara manual.
 
-Unlike the legacy mnemonic scheme, the polyseed mechanism does not allow you to
-choose the words from a wordlist. Instead, the words are generated from the
-[secret seed](#secret-seed), feature bits and birthday bits. The feature bits
-are used to determine the wallet features and the birthday bits are used to
-determine the [wallet birthday](#wallet-birthday-restore-height).
+Tidak seperti skema mnemonik warisan, mekanisme polyseed tidak memungkinkan Anda
+untuk memilih kata dari daftar kata. Sebaliknya, kata-kata dihasilkan dari
+[benih rahasia](#secret-seed), bit fitur, dan bit ulang tahun. Bit fitur
+digunakan untuk menentukan fitur dompet dan bit ulang tahun digunakan untuk
+menentukan [tanggal ulang tahun dompet](#wallet-birthday-restore-height).
 
 ### Encoding
 
