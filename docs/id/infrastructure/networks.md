@@ -11,10 +11,10 @@ title: Mainnet, Stagenet, Testnet
 
      Every network has its own genesis block and is entirely separate from others.
 
-## Nodes & Explorers
+## Node & Penjelajah
 
-!!! danger "Spy Nodes and Explorers" Be cautious when using **_any_** remote
-node or block explorer.
+!!! danger "Node Spion dan Penjelajah" Berhati-hatilah saat menggunakan
+**_node_** atau penjelajah blok jarak jauh apa pun.
 
     Malicious service providers may log and associate your IP address, TXIDs, and more.
     If you must use Untrusted Nodes, use them over Onion or I2P.
