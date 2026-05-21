@@ -13,13 +13,13 @@ publicnode: "#public-node=1                  # Advertise to other users they can
 
 ---
 # Menjalankan Monerod melalui Systemd
-!!! success "The end goal" You will publicly offer the following services, where
-xxx.yyy.zzz.vvv is your server IP address.
+!!! success "Tujuan akhir" Anda akan secara publik menawarkan layanan berikut,
+di mana xxx.yyy.zzz.vvv adalah alamat IP server Anda.
 
     * xxx.yyy.zzz.vvv:18080 - clearnet P2P service (for other nodes)
     * xxx.yyy.zzz.vvv:18089 - clearnet RPC service (for wallets)
 
-## Why run this specific setup?
+## Mengapa menjalankan setup spesifik ini?
 
 You will be able to connect your desktop and mobile Monero wallets to your own
 trusted Monero node, in a secure and private way over Tor.
@@ -38,7 +38,7 @@ flag `public-node=1` may use a sizeable amount of resources on your PC.
 
 ## Asumsi
 
-You possess:
+Anda memiliki:
 
 - Basic understanding of Linux administration
 - Root access to a Linux server
