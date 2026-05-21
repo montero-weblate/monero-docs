@@ -5,10 +5,9 @@ title: monero-wallet-gui - Reference
 
 ## Ikhtisar
 
-### Desktop GUI wallet
+### Dompet GUI desktop
 
-The "official" desktop wallet for Monero. Available for Linux, macOS and
-Windows.
+Dompet desktop "resmi" untuk Monero. Tersedia untuk Linux, macOS, dan Windows.
 
 Wallet uses your private keys to understand your total balance, transactions
 history, and to facilitate creating transactions.
