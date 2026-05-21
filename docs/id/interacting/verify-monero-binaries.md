@@ -6,10 +6,10 @@ title: Verifying Monero Binaries Signature
 Verifikasi harus dilakukan **sebelum mengekstrak arsip dan sebelum menggunakan
 Monero**.
 
-Instructions were tested on Linux. They should also work on macOS with slight
-modifications.
+Instruksi telah diuji di Linux. Instruksi juga harus berfungsi di macOS dengan
+modifikasi kecil.
 
-## 1. Import lead maintainer PGP key
+## 1. Impor kunci PGP pemelihara utama
 
 This is a one time action. Skip this step for subsequent Monero releases.
 
