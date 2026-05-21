@@ -21,8 +21,8 @@ di mana xxx.yyy.zzz.vvv adalah alamat IP server Anda.
 
 ## Mengapa menjalankan setup spesifik ini?
 
-You will be able to connect your desktop and mobile Monero wallets to your own
-trusted Monero node, in a secure and private way over Tor.
+Anda akan dapat menghubungkan dompet Monero desktop dan mobile Anda ke node
+Monero terpercaya Anda sendiri, dengan cara yang aman dan pribadi melalui Tor.
 
 **Running as a systemd service** will allow your node to always remain synced,
 as opposed to intermittently running node.
@@ -40,7 +40,7 @@ flag `public-node=1` may use a sizeable amount of resources on your PC.
 
 Anda memiliki:
 
-- Basic understanding of Linux administration
+- Pemahaman dasar tentang administrasi Linux
 - Root access to a Linux server
 - _Recommended_ 4 GB+ RAM
 - _Recommended_ available SSD storage of
