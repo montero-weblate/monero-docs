@@ -9,8 +9,8 @@ toko online dan pertukaran.
 Alamat terintegrasi Monero menyematkan ID pembayaran. Ini memungkinkan Anda
 untuk mengetahui untuk apa Anda dibayar.
 
-Please note these are Monero technical payment IDs and must not be confused with
-business identifiers like order number or invoice number.
+Harap dicatat bahwa ini adalah ID pembayaran teknis Monero dan tidak boleh
+disamakan dengan pengenal bisnis seperti nomor pesanan atau nomor invoice.
 
 The transaction to integrated address will not reveal the payment ID publicly.
 Payment ID in a transaction will be encrypted with a shared secret (one-time
