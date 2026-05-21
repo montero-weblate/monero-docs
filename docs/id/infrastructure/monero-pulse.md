@@ -5,10 +5,10 @@ title: MoneroPulse
 
 ## Apa itu MoneroPulse?
 
-MoneroPulse is infrastructure for emergency checkpointing the blockchain.
+MoneroPulse adalah infrastruktur untuk checkpointing blockchain darurat.
 
-It aims to mitigate chain-splits resulting from consensus bugs (like [this one
-from
+Tujuannya adalah untuk mengurangi pemisahan rantai yang dihasilkan dari bug
+konsensus (seperti [yang ini dari
 2014](https://monero.stackexchange.com/questions/421/what-happened-at-block-202612/424#424)).
 
 Effectively, MoneroPulse operators can publish which fork they consider the
@@ -134,7 +134,7 @@ Example Using Cloudflare DNS for monerod:
     DNS_PUBLIC=tcp://1.1.1.1 ./monerod
 
 
-## Reference
+## Referensi
 
 * [StackExchange
   answer](https://monero.stackexchange.com/questions/679/what-is-moneropulse?noredirect=1&lq=1)
