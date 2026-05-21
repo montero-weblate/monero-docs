@@ -10,7 +10,7 @@ membutuhkan `monero-wallet-rpc`.
 !!! note Gunakan [stagenet](../infrastructure/networks.md) untuk pembelajaran
 dan pengembangan di atas `monero-wallet-rpc`.
 
-## JSON-RPC interface
+## Antarmuka JSON-RPC
 
 For a list of `monero-wallet-rpc` calls, their inputs, outputs, and examples,
 visit the wallet-rpc [library](../rpc-library/wallet-rpc.md)
