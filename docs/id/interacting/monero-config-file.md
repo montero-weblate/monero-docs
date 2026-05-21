@@ -12,8 +12,8 @@ publicnode: "#public-node=1                  # Advertise to other users they can
 
 ## Penerapan
 
-By default Monero looks for `bitmonero.conf` in Monero [data
-directory](../interacting/overview.md#data-directory).
+Secara default Monero mencari `bitmonero.conf` di [direktori
+data](../interacting/overview.md#data-directory) Monero.
 
 To use a specific config file add `--config-file` option:
 
@@ -33,7 +33,7 @@ The `--config-file` option is available for:
 - `# comment`
 - whitespace is ignored
 
-## Reference
+## Referensi
 
 All configuration options are the same as command line options for the binary.
 
