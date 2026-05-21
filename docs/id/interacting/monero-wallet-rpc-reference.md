@@ -4,11 +4,11 @@ title: monero-wallet-rpc - Reference
 
 # `monero-wallet-rpc` - Referensi
 
-!!! note This is only relevant for programmers. Everyday users won't need
-`monero-wallet-rpc`.
+!!! note Ini hanya relevan untuk programmer. Pengguna sehari-hari tidak akan
+membutuhkan `monero-wallet-rpc`.
 
-!!! note Use [stagenet](../infrastructure/networks.md) for learning and
-development on top of `monero-wallet-rpc`.
+!!! note Gunakan [stagenet](../infrastructure/networks.md) untuk pembelajaran
+dan pengembangan di atas `monero-wallet-rpc`.
 
 ## JSON-RPC interface
 
