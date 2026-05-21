@@ -4,8 +4,8 @@ title: How to mine with Monero GUI amd CLI wallets
 
 ## Persyaratan
 
-- [Monero GUI wallet](https://getmonero.org/downloads)
-- Minimum {{ lmdb_size_pruned }} GiB free space
+- [Dompet GUI Monero](https://getmonero.org/downloads)
+- Ruang bebas minimum {{ lmdb_size_pruned }} GiB
 - A fully synced node, managed by Monero GUI
 
 ## Notes
