@@ -18,7 +18,7 @@ untuk memilih kata dari daftar kata. Sebaliknya, kata-kata dihasilkan dari
 digunakan untuk menentukan fitur dompet dan bit ulang tahun digunakan untuk
 menentukan [tanggal ulang tahun dompet](#wallet-birthday-restore-height).
 
-### Encoding
+### Pengodean
 
 Each word contains 11 bits of information that is the index of the word from the
 polyseed, which is a list of 2048 words (Notice that 2^11 is 2048). The words
