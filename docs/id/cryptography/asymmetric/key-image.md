@@ -6,10 +6,10 @@ title: Monero Private Key Image
 !!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
 terhadap keakuratannya.
 
-Private key image serves to detect double spending attempts.
+Gambar kunci privat berfungsi untuk mendeteksi upaya pengeluaran ganda.
 
-In Monero funds are always sent to a one-time public key `P`. Related one-time
-private key `x` is specific to unspent output.
+Dalam Monero, dana selalu dikirim ke kunci publik sekali pakai `P`. Kunci privat
+sekali pakai terkait `x` spesifik untuk output yang tidak terpakai.
 
 As output can be spent only once (in whole), the related private key can be used
 only once as well.
@@ -21,7 +21,7 @@ This whole scheme is necessary because Monero uses Ring Signatures which make it
 impossible to know whom exactly signed the transaction. This is why a simple
 Bitcoin-like double spending check wouldn't work here.
 
-## Definition
+## Definisi
 
     I = x*Hp(P)
 
@@ -44,7 +44,7 @@ Substitute `P` with `xG` and we get:
     I = x*Hp(xG)
 The key image `I` is a one-way function of the private key `x`.
 
-## Reference
+## Referensi
 
 * [StackExchange
   answer](https://monero.stackexchange.com/questions/2883/what-is-a-key-image)
