@@ -6,12 +6,12 @@ title: Keccak-256 Hash Function
 Monero menggunakan Keccak sebagai fungsi hashing. Dalam sebagian besar konteks,
 secara spesifik Keccak-256 digunakan, memberikan hash 32-byte.
 
-Keccak is the leading hashing function, designed by non-NSA designers. Keccak
-won [NIST
-competition](https://en.wikipedia.org/wiki/NIST_hash_function_competition) to
-become the official SHA3.
+Keccak adalah fungsi hashing terdepan, dirancang oleh desainer non-NSA. Keccak
+memenangkan [kompetisi
+NIST](https://en.wikipedia.org/wiki/NIST_hash_function_competition) untuk
+menjadi SHA3 resmi.
 
-## Use Cases
+## Kasus Penggunaan
 
 Monero does **not** employ Keccak for Proof-of-Work. Instead, Keccak is used
 for:
@@ -35,7 +35,7 @@ the original Keccak-256 gives a different hash value than NIST SHA3-256.
 Monero uses original Keccak-256. The NIST standard was only published on August
 2015, while Monero went live on 18 April 2014.
 
-## Reference
+## Referensi
 
 * [Keccak source code used in
   Monero](https://github.com/monero-project/monero/blob/5c2dfe157b48a486eb2b92dcf8789b3b1eb20f60/src/crypto/keccak.c)
