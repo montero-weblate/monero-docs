@@ -9,7 +9,7 @@ dompet paling andal dan paling lengkap untuk Monero. Gunakan
 
 ## Ikhtisar
 
-### Command line wallet
+### Dompet baris perintah
 
 The "official" command line wallet for Monero. Available for Linux, macOS and
 Windows.
