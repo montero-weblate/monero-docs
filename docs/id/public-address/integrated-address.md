@@ -6,8 +6,8 @@ title: Integrated Address
 Alamat terintegrasi ideal untuk menerima Monero secara otomatis - seperti di
 toko online dan pertukaran.
 
-Monero integrated address embeds a payment ID. This allows you to learn for what
-you are being paid.
+Alamat terintegrasi Monero menyematkan ID pembayaran. Ini memungkinkan Anda
+untuk mengetahui untuk apa Anda dibayar.
 
 Please note these are Monero technical payment IDs and must not be confused with
 business identifiers like order number or invoice number.
@@ -83,7 +83,7 @@ There are some caveats:
   software to generate integrated addresses for you (instead of forcing your own
   payment IDs).
 
-## Reference
+## Referensi
 
 * question on
   [StackExchange](https://monero.stackexchange.com/questions/3179/what-is-an-integrated-address)
