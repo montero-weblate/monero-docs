@@ -5,10 +5,10 @@ title: Proof of Work in Cryptocurrencies
 
 > Bukti kerja adalah mekanisme perlindungan Sybil
 
-## PoW protects against Sybil attack
+## PoW melindungi dari serangan Sybil
 
-In decentralized cryptocurrencies **untrusted** actors confirm (blocks of)
-transactions.
+Dalam mata uang kripto terdesentralisasi, aktor yang **tidak terpercaya**
+mengonfirmasi (blok) transaksi.
 
 If threshold voting was employed then the scheme would break immediately. This
 is because nothing prevents a single actor from creating arbitrary number of
