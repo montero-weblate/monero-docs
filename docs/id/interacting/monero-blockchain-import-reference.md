@@ -10,7 +10,7 @@ node.
 
 ## Ikhtisar
 
-The tool imports bootstrap file `blockchain.raw` to your full node.
+Alat mengimpor file bootstrap `blockchain.raw` ke node penuh Anda.
 
 This could be useful if you want to decouple download from verification for any
 reason (like testing performance in isolation). Ideally, you should use your own
