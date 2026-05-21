@@ -5,10 +5,10 @@ title: How to solo mine with XMRig
 ## Persyaratan
 ### Dompet
 
-Before starting, you'll need to have a Monero Wallet configured.
+Sebelum memulai, Anda harus memiliki Dompet Monero yang dikonfigurasi.
 
-You have to use the Primary wallet address for mining - _Subaddresses and
-integrated addresses are not supported._
+Anda harus menggunakan alamat dompet Utama untuk menambang - _Subalamat dan
+alamat terintegrasi tidak didukung._
 
 ### Node
 
