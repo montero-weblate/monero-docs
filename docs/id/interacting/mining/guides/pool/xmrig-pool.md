@@ -5,12 +5,13 @@ title: How to mine on a Pool with XMRig
 ## Persyaratan
 ### Dompet
 
-Before starting, you already need to have a wallet configured and working. The
-pool needs to know your wallet address to be able to send payments there.\
-When mining on a pool, it's recommended to use an unused wallet, subaccount or
-subaddress.
+Sebelum memulai, Anda sudah harus memiliki dompet yang dikonfigurasi dan
+berfungsi. Pool perlu mengetahui alamat dompet Anda untuk dapat mengirimkan
+pembayaran ke sana.\
+Saat menambang di pool, disarankan untuk menggunakan dompet, subakun, atau
+subalamat yang tidak digunakan.
 
-### XMRig Software
+### Perangkat Lunak XMRig
 
 The XMRig developer provides pre-built binaries for Ubuntu Linux LTS releases,
 MacOS 11+, and FreeBSD.
