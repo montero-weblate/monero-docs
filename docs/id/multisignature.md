@@ -7,7 +7,7 @@ Dalam mata uang kripto, fitur multisig memungkinkan menandatangani transaksi
 dengan lebih dari satu kunci privat. Dana yang dilindungi dengan multisig hanya
 dapat dibelanjakan dengan menandatangani menggunakan kunci M-dari-N.
 
-Example use cases:
+Contoh kasus penggunaan:
 
 * shared account (1-of-2; both husband and wife individually have full access to
   their funds)
