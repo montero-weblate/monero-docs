@@ -8,8 +8,8 @@ Monero.
 
 ## Ketahui untuk apa Anda dibayar
 
-By providing a unique subaddress for each anticipated payment you will know for
-what you are being paid.
+Dengan menyediakan subalamat unik untuk setiap pembayaran yang diharapkan, Anda
+akan tahu untuk apa Anda dibayar.
 
 This use case overlaps with integrated addresses. Subaddresses are generally
 preferred for reasons outlined below.
