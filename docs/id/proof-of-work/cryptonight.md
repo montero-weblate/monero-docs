@@ -5,9 +5,9 @@ title: CryptoNight
 
 > CryptoNight adalah fungsi hash yang keras terhadap memori
 
-## Background
+## Latar Belakang
 
-CryptoNight was originally designed around 2013 as part of the CryptoNote suite.
+CryptoNight awalnya dirancang sekitar 2013 sebagai bagian dari suite CryptoNote.
 
 One design goal was to make it very friendly for the off-the-shelf CPU-s, by
 employing:
@@ -179,7 +179,7 @@ See the [rationale](https://github.com/monero-project/monero/pull/5126) and the
 CryptoNight proof of work remains one of the most controversial aspect of
 Monero.
 
-## Reference
+## Referensi
 
 * [CryptoNight hash function](https://cryptonote.org/cns/cns008.txt) description
   in the CryptoNote Standard
