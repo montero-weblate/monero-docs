@@ -3,9 +3,9 @@ title: monero-blockchain-export - Reference
 ---
 # `monero-blockchain-export` - Referensi
 
-!!! note Nowadays, there is little usage for raw blockchain export / import. In
-the past the p2p blockchain download was much slower. Back than blockchain.raw
-file was used to speed up the process of bootstrapping a node.
+!!! note Saat ini, hanya sedikit penggunaan untuk ekspor/impor blockchain
+mentah. Di masa lalu, unduhan blockchain p2p jauh lebih lambat. Dulu file
+blockchain.raw digunakan untuk mempercepat proses bootstrapping node.
 
 ## Ikhtisar
 
@@ -73,6 +73,6 @@ Specifying the log file path is not supported.
 | `--blocksdat`   | Output in blocks.dat format.                                                                                                                              |
 | `--block-stop`  | Only export up to this block number. By default do the full export (value `0`).                                                                           |
 
-## Reference
+## Referensi
 
 * [https://github.com/monero-project/monero/tree/master/src/blockchain_utilities](https://github.com/monero-project/monero/tree/master/src/blockchain_utilities)
