@@ -1,3 +1,9 @@
 notices:
   outdatedTranslation: Terjemahan ini sudah usang
   outdatedContent: Konten sumber sudah usang
+  notices:
+    adapted: Diadaptasi untuk Monero Docs dari
+  proof_of_work:
+    randomx:
+      notice_date: '**_Ditulis pada 2019_**'
+      notice_text: Diambil dari
