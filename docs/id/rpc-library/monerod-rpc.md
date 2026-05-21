@@ -2,9 +2,9 @@
 title: "Daemon RPC documentation"
 ---
 
-# Daemon RPC
+# RPC Daemon
 
-**`monerod`** [Overview](../interacting/monerod-reference.md)
+**`monerod`** [Ikhtisar](../interacting/monerod-reference.md)
 
 ## Pendahuluan
 
