@@ -88,6 +88,6 @@ Specifying the log file path is not supported.
 | `--batch-size`                  | How often to save to disk expressed in number of blocks. By default save every `5000` blocks (when verifying) or every `20000` blocks (when not verifying). Big batches are faster but require more RAM.                                                                     |
 | `--resume`                      | Resume from current height if output database already exists (the default, value `1`). Changing to `--resume=0` doesn't change much — existing blocks are skipped pretty quickly and the process is resumed anyway.                                                          |
 
-## Reference
+## Referensi
 
 * [https://github.com/monero-project/monero/tree/master/src/blockchain_utilities](https://github.com/monero-project/monero/tree/master/src/blockchain_utilities)
