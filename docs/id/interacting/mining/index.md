@@ -8,7 +8,7 @@ Monero adalah mata uang kripto Bukti Kerja
 Ada berbagai cara untuk berpartisipasi dalam penambangan Monero.
 
 - [Penambangan Solo](./guides/solo/index.md)
-- [Pool Mining](./guides/pool/xmrig-pool.md)
+- [Penambangan Pool](./guides/pool/xmrig-pool.md)
 - [P2Pool Mining](./guides/p2pool/xmrig-p2pool.md)
 
 Solo Mining is the purest, most decentralized and private form of mining, but
