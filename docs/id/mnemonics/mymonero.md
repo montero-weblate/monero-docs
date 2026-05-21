@@ -13,9 +13,9 @@ Bagi pengguna yang ingin mengonversi benih MyMonero ke benih warisan, konverter
 offline dapat ditemukan di
 [xmr.llcoins.net](https://github.com/luigi1111/xmr.llcoins.net/).
 
-The MyMonero scheme was initially used by MyMonero web and mobile wallet, but
-other projects also adopted this scheme. The scheme is designed to be more
-user-friendly and easier to remember than the legacy scheme.
+Skema MyMonero awalnya digunakan oleh dompet web dan mobile MyMonero, tetapi
+proyek lain juga mengadopsi skema ini. Skema ini dirancang untuk lebih ramah
+pengguna dan lebih mudah diingat daripada skema warisan.
 
 The MyMonero scheme comprises a total of 13 words, where the first 12 words are
 for the seed and the last word is for the checksum. The checksum word is used to
