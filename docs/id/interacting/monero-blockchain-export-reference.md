@@ -9,8 +9,8 @@ blockchain.raw digunakan untuk mempercepat proses bootstrapping node.
 
 ## Ikhtisar
 
-The tool dumps local blockchain to raw format, known as the `blockchain.raw`
-file.
+Alat membongkar blockchain lokal ke format mentah, dikenal sebagai file
+`blockchain.raw`.
 
 This could be useful if you want to process blockchain efficiently with your
 custom tools, as the raw format is probably easier to work with than Monero's
