@@ -8,8 +8,8 @@ title: Proof of Work
 
 ### Apa sebenarnya bukti kerja?
 
-Proof of work is a cryptographic proof that untrusted party committed
-significant computational resources to solve artificial problem.
+Bukti kerja adalah bukti kriptografis bahwa pihak yang tidak terpercaya telah
+menyelesaikan masalah buatan dengan sumber daya komputasi yang signifikan.
 
 Technically, the "proof" is simply a solution to the problem at hand.
 
