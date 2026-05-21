@@ -6,88 +6,90 @@ title: Edwards25519 Elliptic Curve
 !!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
 terhadap keakuratannya.
 
-!!! note This article is only about the underlying curve. Public key derivation
-and signing algorithm will be treated separately.
+!!! note Artikel ini hanya tentang kurva yang mendasar. Derivasi kunci publik
+dan algoritma penandatanganan akan dibahas secara terpisah.
 
-Monero employs edwards25519 elliptic curve as a basis for its key pair
-generation.
+Monero menggunakan kurva eliptik edwards25519 sebagai dasar untuk pembuatan
+pasangan kuncinya.
 
-The curve comes from the Ed25519 signature scheme. While Monero takes the curve
-unchanged, it does not exactly follow rest of the Ed25519.
+Kurva berasal dari skema tanda tangan Ed25519. Meskipun Monero mengambil kurva
+tanpa perubahan, skema ini tidak benar-benar mengikuti sisa Ed25519.
 
-The edwards25519 curve is [birationally equivalent to
+Kurva edwards25519 adalah [setara secara birasional dengan
 Curve25519](https://tools.ietf.org/html/rfc7748#section-4.1).
 
-## Definition
+## Definisi
 
-This is the standard edwards25519 curve definition, no Monero specific stuff
-here, except the naming convention. The convention comes from the CryptoNote
-whitepaper and is widely used in Monero literature.
+Ini adalah definisi kurva edwards25519 standar, tidak ada hal spesifik Monero di
+sini, kecuali konvensi penamaan. Konvensi berasal dari whitepaper CryptoNote dan
+banyak digunakan dalam literatur Monero.
 
-### Curve equation
+### Persamaan kurva
 
     −x^2 + y^2 = 1 − (121665/121666) * x^2 * y^2
 
-Note:
+Catatan:
 
-* curve is in two dimensions (nothing fancy, like all the curves is high school)
-* curve is mirrored below y axis due to `y^2` part of the equation (not a
-  polynomial)
+* kurva berada dalam dua dimensi (tidak ada yang istimewa, seperti semua kurva
+  di sekolah menengah)
+* kurva dicerminkan di bawah sumbu y karena bagian `y^2` dari persamaan (bukan
+  polinomial)
 
-### Base point: `G`
+### Titik dasar: `G`
 
-The base point is a specific point on the curve. It is used as a basis for
-further calculations. It is an arbitrary choice by the curve authors, just to
-standardize the scheme.
+Titik dasar adalah titik spesifik pada kurva. Titik ini digunakan sebagai dasar
+untuk perhitungan lebih lanjut. Ini adalah pilihan arbitrer oleh penulis kurva,
+hanya untuk menstandarkan skema.
 
-Note that it is enough to specify the y value and the sign of the x value.
-That's because the specific x can be calculated from the curve equation.
+Perhatikan bahwa cukup untuk menentukan nilai y dan tanda nilai x. Itu karena x
+spesifik dapat dihitung dari persamaan kurva.
 
     G = (x, 4/5)  # take the point with the positive x
 
     # The hex representation of the base point
     5866666666666666666666666666666666666666666666666666666666666666    
 
-### Prime order of the base point: `l`
+### Orde prima dari titik dasar: `l`
 
-In laymen terms, the "canvas" where the curve is drawn is assumed to have a
-finite "resolution", so point coordinates must "wrap around" at some point. This
-is achieved by modulo the `l` value (lowercase L). In other words, the `l`
-defines the maximum scalar we can use.
+Dalam istilah awam, "kanvas" tempat kurva digambar diasumsikan memiliki
+"resolusi" yang terbatas, jadi koordinat titik harus "membungkus" pada suatu
+titik. Ini dicapai dengan modulo nilai `l` (huruf L kecil). Dengan kata lain,
+`l` mendefinisikan skalar maksimum yang dapat kami gunakan.
 
     l = 2^252 + 27742317777372353535851937790883648493
     # => 7237005577332262213973186563042994240857116359379907606001950938285454250989
 
-The `l` is a prime number specified by the curve authors.
+`l` adalah bilangan prima yang ditentukan oleh penulis kurva.
 
-In practice this is the private key's strength.
+Dalam praktik ini adalah kekuatan kunci privat.
 
-### Total number of points on the curve
+### Jumlah total titik pada kurva
 
-The total number of points on the curve is also a prime number:
+Jumlah total titik pada kurva juga merupakan bilangan prima:
 
     q = 2^255 - 19
 
-In practice not all points are "useful" and so the private key strength is
-limited to `l` describe above.
+Dalam praktik tidak semua titik "berguna" dan oleh karena itu kekuatan kunci
+privat dibatasi pada `l` yang dijelaskan di atas.
 
-## Implementation
+## Implementasi
 
-Monero uses (apparently modified) Ref10 implementation by Daniel J. Bernstein.
+Monero menggunakan implementasi Ref10 (tampaknya dimodifikasi) oleh Daniel J.
+Bernstein.
 
-## Reference
+## Referensi
 
-* [A (Relatively Easy To Understand) Primer on Elliptic Curve
-  Cryptography](https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/)
-* [RFC 8032 defining EdDSA](https://tools.ietf.org/html/rfc8032)
-* [Understanding Monero
-  Cryptography](https://steemit.com/monero/@luigi1111/understanding-monero-cryptography-privacy-introduction)
-  - excellent writeup by Luigi
-* [StackOverflow
-  answer](https://monero.stackexchange.com/questions/2290/why-how-does-monero-generate-public-ed25519-keys-without-using-the-standard-publ)
-* [Python
-  implementation](https://github.com/monero-project/mininero/blob/master/ed25519.py)
-  - not the reference one but easier to understand
-* [Encoding point to
+* [Pengantar (Relatif Mudah Dipahami) tentang Kriptografi Kurva
+  Eliptik](https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/)
+* [RFC 8032 yang mendefinisikan EdDSA](https://tools.ietf.org/html/rfc8032)
+* [Memahami Kriptografi
+  Monero](https://steemit.com/monero/@luigi1111/understanding-monero-cryptography-privacy-introduction)
+  - tulisan yang sangat baik oleh Luigi
+* [Jawaban
+  StackOverflow](https://monero.stackexchange.com/questions/2290/why-how-does-monero-generate-public-ed25519-keys-without-using-the-standard-publ)
+* [Implementasi
+  Python](https://github.com/monero-project/mininero/blob/master/ed25519.py) -
+  bukan yang referensi tetapi lebih mudah dipahami
+* [Enkode titik ke
   hex](https://monero.stackexchange.com/questions/6050/what-is-the-base-point-g-from-the-whitepaper-and-how-is-it-represented-as-a)
-* [EdDSA on Wikipedia](https://en.wikipedia.org/wiki/EdDSA)
+* [EdDSA di Wikipedia](https://en.wikipedia.org/wiki/EdDSA)
