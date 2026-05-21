@@ -3,9 +3,9 @@ title: monero-wallet-cli - Reference
 ---
 # `monero-wallet-cli` - Referensi
 
-!!! note Get yourself comfortable with a friendly Monero CLI wallet. It is the
-most reliable and most complete wallet for Monero. Use
-[stagenet](../infrastructure/networks.md#stagenet) for learning.
+!!! note Biasakan diri Anda dengan dompet CLI Monero yang ramah. Ini adalah
+dompet paling andal dan paling lengkap untuk Monero. Gunakan
+[stagenet](../infrastructure/networks.md#stagenet) untuk belajar.
 
 ## Ikhtisar
 
