@@ -15,7 +15,7 @@ publicnode: "#public-node=1                  # Advertise to other users they can
 Secara default Monero mencari `bitmonero.conf` di [direktori
 data](../interacting/overview.md#data-directory) Monero.
 
-To use a specific config file add `--config-file` option:
+Untuk menggunakan file konfigurasi tertentu, tambahkan opsi `--config-file`:
 
 `./monerod --config-file=/etc/monerod.conf`
 
