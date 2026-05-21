@@ -8,8 +8,8 @@ title: "Daemon RPC documentation"
 
 ## Pendahuluan
 
-This is a list of the monerod daemon RPC calls, their inputs and outputs, and
-examples of each.
+Ini adalah daftar panggilan RPC daemon monerod, masukan dan keluarannya, serta
+contoh masing-masing.
 
 Catatan:
 "[unit-atom](https://www.getmonero.org/resources/moneropedia/atomic-units.html
