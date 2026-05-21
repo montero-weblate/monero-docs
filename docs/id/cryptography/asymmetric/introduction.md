@@ -6,19 +6,21 @@ title: Asymmetric Cryptography in Monero
 !!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
 terhadap keakuratannya.
 
-Before we get to Monero specific stuff, a little bit of context. We are talking
-asymmetric cryptography here. The "asymmetric" simply means the are two keys:
+Sebelum kita sampai ke hal-hal spesifik Monero, sedikit konteks. Kita berbicara
+tentang kriptografi asimetris di sini. "Asimetris" berarti ada dua kunci:
 
-* the private key (used primarily for signing data and for decrypting data)
-* the public key (used primarily for signature verification and encrypting data)
+* kunci privat (digunakan terutama untuk menandatangani data dan untuk
+  mendekripsi data)
+* kunci publik (digunakan terutama untuk verifikasi tanda tangan dan enkripsi
+  data)
 
-This is in contrast to symmetric cryptography which uses a single key. This key
-is a secret shared among the parties.
+Ini berbeda dengan kriptografi simetris yang menggunakan satu kunci. Kunci ini
+adalah rahasia yang dibagikan di antara pihak-pihak.
 
-Historically, asymmetric cryptography was based on the problem of factorization
-of a very large integers back into prime numbers (which is practically
-impossible for large enough integers).
+Secara historis, kriptografi asimetris didasarkan pada masalah faktorisasi
+bilangan bulat yang sangat besar kembali menjadi bilangan prima (yang secara
+praktis tidak mungkin untuk bilangan bulat yang cukup besar).
 
-Recently, asymmetric cryptography is based on a mathematical notion of elliptic
-curves. Edwards25519 is a specific, well researched and standardized elliptic
-curve used in Monero.
+Baru-baru ini, kriptografi asimetris didasarkan pada gagasan matematis kurva
+eliptik. Edwards25519 adalah kurva eliptik tertentu yang diteliti dengan baik
+dan distandarkan yang digunakan dalam Monero.
