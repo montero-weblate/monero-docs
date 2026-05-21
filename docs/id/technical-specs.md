@@ -3,9 +3,9 @@ title: Monero Technical Specification
 ---
 # Spesifikasi Teknis Monero
 
-## Live
+## Langsung
 
-* Monero blockchain is live since 18 April 2014
+* Blockchain Monero telah aktif sejak 18 April 2014
 
 ## No premine, no instamine, no ICO, no token
 
@@ -13,7 +13,7 @@ title: Monero Technical Specification
 * Monero did not sell any token
 * Monero had no presale of any kind
 
-## Proof of Work
+## Bukti Kerja
 
 * CryptoNight
     * v0 since block height 0
