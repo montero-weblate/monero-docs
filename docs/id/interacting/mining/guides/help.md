@@ -10,7 +10,7 @@ komputer yang terinfeksi untuk menambang tanpa persetujuan pemilik. Karena ini
 adalah komputer Anda, dan Anda mengonfigurasi penambang untuk menambang untuk
 Anda, aman untuk menambahkan XMRig dan P2Pool ke whitelist antivirus Anda.
 
-### Cannot read/set MSR
+### Tidak dapat membaca/mengatur MSR
 
 On some CPUs, XMRig tries to increase performance by disabling certain features
 like your CPU's instruction prefetcher. These operations require
