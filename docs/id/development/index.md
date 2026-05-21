@@ -1,5 +1,5 @@
 ---
 title: "Research and Development"
 ---
-{% include 'devguide' %}
+{% include 'panduanpengembang' %}
 
