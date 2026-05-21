@@ -8,7 +8,7 @@ config: (../interacting/monero-config-file.md#monerodconf)
 
 ### Asumsi
 
-You possess:
+Anda memiliki:
 
 - Basic understanding of Linux administration
 - Root access to a Linux distribution
