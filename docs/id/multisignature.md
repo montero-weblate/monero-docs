@@ -9,8 +9,8 @@ dapat dibelanjakan dengan menandatangani menggunakan kunci M-dari-N.
 
 Contoh kasus penggunaan:
 
-* shared account (1-of-2; both husband and wife individually have full access to
-  their funds)
+* akun bersama (1-dari-2; suami dan istri masing-masing memiliki akses penuh ke
+  dana mereka)
 * consensus account (2-of-2; both husband and wife must agree to spend their
   funds)
 * threshold account (2-of-3; an escrow service is involved as an independent 3rd
