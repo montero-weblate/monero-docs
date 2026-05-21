@@ -5,13 +5,14 @@ title: Accepting Monero for Businesses
 
 Ini ditujukan untuk bisnis yang ingin menerima Monero secara otomatis, termasuk:
 
-* merchants
-* service providers
-* exchanges
+* pedagang
+* penyedia layanan
+* pertukaran
 
-We prepared a comparison of available venues to accept Monero, as of 2019-01-28:
+Kami menyiapkan perbandingan tempat yang tersedia untuk menerima Monero, per
+2019-01-28:
 
 
 [<img src="/images/sheets-icon.png" width="20px" height="20px" style="margin-bottom: -4px;" />
-Accepting Monero as a Business - Comparison
-Matrix](../../r/accepting-monero-comparison-matrix.md)
+Menerima Monero sebagai Bisnis - Matriks
+Perbandingan](../../r/accepting-monero-comparison-matrix.md)
