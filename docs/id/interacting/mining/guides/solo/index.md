@@ -1,7 +1,7 @@
 ---
 title: Mining Monero
 ---
-# Solo Mining Monero
+# Penambangan Monero Solo
 
 Ada berbagai cara untuk menambang Monero secara solo.
 
