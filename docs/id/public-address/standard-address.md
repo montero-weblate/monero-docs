@@ -6,11 +6,11 @@ title: Standard Address
 Secara historis, alamat Utama adalah satu-satunya pilihan yang tersedia. Untuk
 alasan itu, alamat ini adalah jenis alamat yang paling banyak didukung.
 
-Its strength is simplicity. However, these days users should prefer receiving to
-subaddresses instead.
+Kekuatannya adalah kesederhanaan. Namun, saat ini pengguna harus lebih suka
+menerima ke subalamat.
 
-Technically, main address is also a basis for creating subaddresses and
-integrated addresses.
+Secara teknis, alamat utama juga merupakan dasar untuk membuat subalamat dan
+alamat terintegrasi.
 
 Main address is **still useful for**:
 
@@ -104,7 +104,7 @@ seed mnemonics.
 Deterministic addresses derive the private view key from the private spend key
 by hashing it (conventionally Keccak-256) and reducing it modulo `l`.
 
-## Reference
+## Referensi
 
 * [StackExchenge
   answer](https://monero.stackexchange.com/questions/980/what-are-the-public-viewkeys-and-spendkeys)
