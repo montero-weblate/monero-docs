@@ -6,11 +6,11 @@ title: Private Keys in Monero
 !!! Catatan: Penulis sama sekali bukan seorang kriptografer. Harap skeptis
 terhadap keakuratannya.
 
-In Monero, the root private key is generated
-[randomly](../../cryptography/prng.md). Other private keys are derived
-deterministically from the root private key.
+Dalam Monero, kunci privat akar dihasilkan [secara
+acak](../../cryptography/prng.md). Kunci privat lainnya diturunkan secara
+deterministik dari kunci privat akar.
 
-Private key must be kept secret.
+Kunci privat harus disimpan rahasia.
 
 Private key is a **large integer** impossible to guess, like:
 `108555083659983933209597798445644913612440610624038028786991485007418559037440`
