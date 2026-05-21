@@ -7,7 +7,7 @@ title: Monero Technical Specification
 
 * Blockchain Monero telah aktif sejak 18 April 2014
 
-## No premine, no instamine, no ICO, no token
+## Tidak ada premine, tidak ada instamine, tidak ada ICO, tidak ada token
 
 * Monero had no premine or instamine
 * Monero did not sell any token
